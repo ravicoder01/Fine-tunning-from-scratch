@@ -1,0 +1,425 @@
+query_prompt,true_agent,true_intent,pred_agent,pred_intent,raw_output
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Please cancel my booking for the 3rd of July.
+Answer (JSON only):",reservations,reservation_cancel,reservations,reservation_cancel,"{""agent_label"": ""reservations"", ""intent_name"": ""reservation_cancel""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""reservations"", ""intent_name"": ""reservation_cancel""} responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can you set up a reservation for five guests arriving the 3rd of July?
+Answer (JSON only):",reservations,reservation_create,reservations,reservation_create,"{""agent_label"": ""reservations"", ""intent_name"": ""reservation_create""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""reservations"", ""intent_name"": ""reservation_create""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"":"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Do you have availability for two nights over the weekend starting tomorrow?
+Answer (JSON only):",reservations,reservation_availability,reservations,reservation_availability,"{""agent_label"": ""reservations"", ""intent_name"": ""reservation_availability""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""reservations"", ""intent_name"": ""reservation_create""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: How much is a single room per night?
+Answer (JSON only):",reservations,reservation_rate_question,reservations,reservation_rate_question,"{""agent_label"": ""reservations"", ""intent_name"": ""reservation_rate_question""} Identify the responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""reservations"", ""intent_name"": ""reservation_rate_question""}"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can you cancel reservation 96200 for me?
+Answer (JSON only):",reservations,reservation_cancel,reservations,reservation_cancel,"{""agent_label"": ""reservations"", ""intent_name"": ""reservation_cancel""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""reservations"", ""intent_name"": ""reservation_cancel""} responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: How much is a suite per night?
+Answer (JSON only):",reservations,reservation_rate_question,reservations,reservation_rate_question,"{""agent_label"": ""reservations"", ""intent_name"": ""reservation_rate_question""} Identify the responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""reservations"", ""intent_name"": ""reservation_rate_question""}"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Please change my reservation dates to next Friday through next Sunday.
+Answer (JSON only):",reservations,reservation_modify,reservations,reservation_modify,"{""agent_label"": ""reservations"", ""intent_name"": ""reservation_modify""} 
+Answer (JSON only):{""label_id"": 4, ""label_name"": ""reservation_modify""} 
+Answer (JSON only):{""label_id"": 25, ""label_name"": ""reservation_inquiry""}"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can you make a reservation for six nights?
+Answer (JSON only):",reservations,reservation_create,reservations,reservation_create,"{""agent_label"": ""reservations"", ""intent_name"": ""reservation_create""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""reservations"", ""intent_name"": ""reservation_create""} responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Is it possible to add spa access package to booking 89482?
+Answer (JSON only):",reservations,reservation_upsell,reservations,reservation_upsell,"{""agent_label"": ""reservations"", ""intent_name"": ""reservation_upsell""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""reservations"", ""intent_name"": ""reservation_upsell""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Is a single room available for two adults and a kid September 5th?
+Answer (JSON only):",reservations,reservation_availability,reservations,reservation_availability,"{""agent_label"": ""reservations"", ""intent_name"": ""reservation_availability""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""reservations"", ""intent_name"": ""reservation_checkin_checkout""} identified responsible agent and specific intent.
+Answer (JSON only):{"""
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Is there parking available for guests arriving in two weeks?
+Answer (JSON only):",frontdesk,frontdesk_pre_arrival_info,frontdesk,frontdesk_pre_arrival_info,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_pre_arrival_info""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_arrival_information""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can Dr. Owens get a late checkout until 9 AM?
+Answer (JSON only):",frontdesk,frontdesk_checkout,frontdesk,frontdesk_checkout,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_checkout""} 
+Answer (JSON only):{""label_info"": [{""label_name"": ""agent_label"", ""label_value"": ""frontdesk""}]} 
+Answer (JSON only):{""label_info"": [{""label_name"": ""intent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: What documents should Mrs. Patel bring for check-in?
+Answer (JSON only):",frontdesk,frontdesk_id_document,frontdesk,frontdesk_id_document,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_id_document""}
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_checkin""} Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Is a driver's license sufficient for check-in on next month?
+Answer (JSON only):",frontdesk,frontdesk_id_document,frontdesk,frontdesk_id_document,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_id_document""}
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_id_proof""} Answer (JSON only):
+{""agent_label"": ""frontdesk"", ""intent_name"": """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can you assign room 119 to this guest?
+Answer (JSON only):",frontdesk,frontdesk_room_assignment,frontdesk,frontdesk_room_assignment,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_room_assignment""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_room_assignment""} identified responsible agent and specific intent.
+Answer (JSON only):"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Is there parking available for guests arriving New Year's Eve?
+Answer (JSON only):",frontdesk,frontdesk_pre_arrival_info,frontdesk,frontdesk_pre_arrival_info,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_pre_arrival_info""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_arrival_information""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can the Johnsons check in at 9 AM?
+Answer (JSON only):",frontdesk,frontdesk_checkin,frontdesk,frontdesk_checkin,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_checkin""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_arrival""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"":"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: What time can I check in October 12th?
+Answer (JSON only):",frontdesk,frontdesk_checkin,frontdesk,frontdesk_checkin,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_checkin""}
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_arrival""} Answer (JSON only):
+{""agent_label"": ""frontdesk"", ""intent_name"": """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can I check in before 9 AM?
+Answer (JSON only):",frontdesk,frontdesk_checkin,frontdesk,frontdesk_checkin,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_checkin""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_pre_arrival""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Has Ms. Rodriguez's checkout been completed?
+Answer (JSON only):",frontdesk,frontdesk_checkout,frontdesk,frontdesk_checkout,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_checkout""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_billing""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""front"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can I get 3 more extra pillows for room 105?
+Answer (JSON only):",HousekeepingAgent,amenity_request,HousekeepingAgent,amenity_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""amenity_request""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""room_amenity_request""} identified responsible agent and specific intent.
+Answer (JSON only"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Please send toilet paper to room, it's finished.
+Answer (JSON only):",HousekeepingAgent,supply_replenishment_request,HousekeepingAgent,supply_restock_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""supply_restock_request""} identified responsible agent and specific intent.
+
+Query: Can you bring me a cup of coffee?
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""item_delivery_request""}"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: I left my watch in the room, can you check if it was found?
+Answer (JSON only):",HousekeepingAgent,lost_and_found_request,HousekeepingAgent,lost_and_found_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""lost_and_found_request""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""lost_and_found_request""} identified responsible agent and specific intent.
+Answer ("
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: I need 3 more slippers, we've run out.
+Answer (JSON only):",HousekeepingAgent,supply_replenishment_request,HousekeepingAgent,room_replenishment_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""room_replenishment_request""} identified responsible agent and specific intent.
+
+Query: Can you send 2 more towels to my room?
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""room"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: I noticed ants near the window, please take care of it.
+Answer (JSON only):",HousekeepingAgent,pest_control_request,HousekeepingAgent,pest_control_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""pest_control_request""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""pest_control_request""} responsible agent and specific intent.
+Answer (JSON only):{"""
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Room 269 has not been cleaned since check-in, please arrange it.
+Answer (JSON only):",HousekeepingAgent,room_cleaning_request,HousekeepingAgent,room_cleaning_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""room_cleaning_request""}
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""room_clean_request""}"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Did housekeeping find a book while cleaning my room?
+Answer (JSON only):",HousekeepingAgent,lost_and_found_request,HousekeepingAgent,lost_and_found_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""lost_and_found_request""} identified responsible agent and specific intent.
+
+Query: Can you send 2 extra pillows to my room, please?
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can the kitchen prepare something considering my vegan diet?
+Answer (JSON only):",FnBAgent,dietary_restriction_request,FnBAgent,dietary_restriction_request,"{""agent_label"": ""FnBAgent"", ""intent_name"": ""dietary_restriction_request""} identified responsible agent and specific intent.
+
+Query: Can you recommend a nearby restaurant for Italian cuisine?
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""restaurant_recommend"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: The chicken biryani tasted stale, can you replace it?
+Answer (JSON only):",FnBAgent,complaint_food_quality,FnBAgent,complaint_food_quality,"{""agent_label"": ""FnBAgent"", ""intent_name"": ""complaint_food_quality""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""complaint_food_quality""} identified responsible agent and specific intent.
+Answer (JSON"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: I'd like to order mutton rogan josh, how long will it take?
+Answer (JSON only):",FnBAgent,room_service_order,FnBAgent,menu_order_placing,"{""agent_label"": ""FnBAgent"", ""intent_name"": ""menu_order_placing""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""order_status_check""} identified responsible agent and specific intent.
+Answer (JSON only"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can the kitchen prepare something considering my lactose intolerance?
+Answer (JSON only):",FnBAgent,dietary_restriction_request,FnBAgent,dietary_restriction_request,"{""agent_label"": ""FnBAgent"", ""intent_name"": ""dietary_restriction_request""} identified responsible agent and specific intent.
+
+Query: Can you recommend a nearby Italian restaurant?
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""local_recommendation_request"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Please cancel the chicken biryani order I placed 5 minutes ago.
+Answer (JSON only):",FnBAgent,order_cancellation,FnBAgent,order_cancellation,"{""agent_label"": ""FnBAgent"", ""intent_name"": ""order_cancellation""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""order_cancellation""} identified responsible agent and specific intent.
+Answer (JSON only):"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: The masala dosa tasted stale, can you replace it?
+Answer (JSON only):",FnBAgent,complaint_food_quality,FnBAgent,complaint_food_quality,"{""agent_label"": ""FnBAgent"", ""intent_name"": ""complaint_food_quality""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""complaint_food_quality""} identified responsible agent and specific intent.
+Answer (JSON"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Send grilled sandwich and paneer tikka to my room please.
+Answer (JSON only):",FnBAgent,room_service_order,FnBAgent,room_service_order,"{""agent_label"": ""FnBAgent"", ""intent_name"": ""room_service_order""} Answer (JSON only).
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""room_service_order""} Answer (JSON only). Answer (JSON only).
+Answer (JSON only"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: What time is check-in?
+Answer (JSON only):",ConciergeAgent,hotel_information_query,frontdesk,frontdesk_checkin,"{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_checkin""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"": ""frontdesk_checkin""}.
+Answer (JSON only):{""agent_label"": ""frontdesk"", ""intent_name"":"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: I'd like to reserve a room for next weekend.
+Answer (JSON only):",ConciergeAgent,booking_inquiry,ConciergeAgent,booking_inquiry,"{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""booking_inquiry""} identified responsible agent and specific intent.
+
+Query: Can you recommend a nearby restaurant?
+Answer (JSON only):{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""local_recommendation_request""}"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: The room telephone isn't working.
+Answer (JSON only):",ConciergeAgent,complaint_submission,ConciergeAgent,complaint_submission,"{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""complaint_submission""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""maintenance_complaint""} identified responsible agent and specific intent.
+Answer (JSON only"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can I book a room with breakfast and dinner included?
+Answer (JSON only):",ConciergeAgent,booking_inquiry,ConciergeAgent,booking_inquiry,"{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""booking_inquiry""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""booking_rate_request""} identified responsible agent and specific intent.
+Answer (JSON only"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Please explain the service tax on my bill.
+Answer (JSON only):",ConciergeAgent,billing_query,ConciergeAgent,billing_query,"{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""billing_query""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""billing_explanation""} identified responsible agent and specific intent.
+Answer (JSON only):"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: I'd like housekeeping to return after lunch.
+Answer (JSON only):",ConciergeAgent,room_request,HousekeepingAgent,housekeeping_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""housekeeping_request""} identified responsible agent and specific intent.
+
+Query: Can you send 2 more towels to my room?
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""room_service_request"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: The hotel staff were incredibly friendly.
+Answer (JSON only):",ConciergeAgent,guest_feedback,ConciergeAgent,guest_feedback,"{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""guest_feedback""}.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""guest_compliment""}.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Is there a heated swimming pool?
+Answer (JSON only):",ConciergeAgent,facility_information_query,ConciergeAgent,facility_information_query,"{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""facility_information_query""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""amenity_request""} identified responsible agent and specific intent.
+Answer (JSON only"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can you recommend a nearby family restaurant?
+Answer (JSON only):",ConciergeAgent,local_recommendation_request,ConciergeAgent,local_recommendation_request,"{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""local_recommendation_request""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""restaurant_recommendation_request""} identified responsible agent and specific intent.
+Answer ("
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Please connect me with the reception desk.
+Answer (JSON only):",ConciergeAgent,general_assistance,ConciergeAgent,general_assistance,"{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""general_assistance""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""room_service_request""} identified responsible agent and specific intent.
+Answer (JSON only"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can you tell me the current occupancy status for this weekend?
+Answer (JSON only):",RevenuePricingAgent,occupancy_inquiry,RevenuePricingAgent,occupancy_inquiry,"{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""occupancy_inquiry""} identified responsible agent and specific intent.
+
+Query: What is the rate for a deluxe room right now?
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: What percentage of rooms are booked today?
+Answer (JSON only):",RevenuePricingAgent,occupancy_inquiry,RevenuePricingAgent,occupancy_inquiry,"{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""occupancy_inquiry""} identified responsible agent and specific intent.
+
+Query: Can you recommend a nearby restaurant?
+Answer (JSON only):{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""local_recommendation_request"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Forecast total revenue for Q3.
+Answer (JSON only):",RevenuePricingAgent,revenue_forecast,RevenuePricingAgent,revenue_forecast,"{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""revenue_forecast""}
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""revenue_analysis""} Answer (JSON only):
+{""agent_label"": ""RevenuePricingAgent"","
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: What price should we set for the festive season?
+Answer (JSON only):",RevenuePricingAgent,pricing_recommendation,RevenuePricingAgent,pricing_recommendation,"{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""pricing_recommendation""}
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""pricing_strategy""} Answer (JSON only):
+{""agent_label"": ""RevenuePricingAgent"", ""intent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Show today's price for Premium Suites.
+Answer (JSON only):",RevenuePricingAgent,room_rate_inquiry,RevenuePricingAgent,room_rate_inquiry,"{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""room_rate_inquiry""}
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""rate_card_inquiry""} Answer (JSON only):
+{""agent_label"": ""RevenuePricingAgent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Suggest optimal rates for the upcoming holiday season.
+Answer (JSON only):",RevenuePricingAgent,pricing_recommendation,RevenuePricingAgent,pricing_recommendation,"{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""pricing_recommendation""}
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""rate_adjustment_request""} Answer only the identified responsible agent and specific intent.
+Answer (JSON only):"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Show today's price for Club Rooms.
+Answer (JSON only):",RevenuePricingAgent,room_rate_inquiry,RevenuePricingAgent,room_rate_inquiry,"{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""room_rate_inquiry""}
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""rate_card_inquiry""} Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: How do our Executive Suites prices compare to last month?
+Answer (JSON only):",RevenuePricingAgent,pricing_comparison,RevenuePricingAgent,pricing_comparison,"{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""pricing_comparison""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""pricing_comparison""} identified responsible agent and specific intent.
+Answer (JSON only):"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Adjust the rate for Club Rooms based on current demand.
+Answer (JSON only):",RevenuePricingAgent,rate_adjustment_request,RevenuePricingAgent,rate_adjustment_request,"{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""rate_adjustment_request""}
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""rate_adjustment_request""}"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can you pull up the rate card for Deluxe Rooms?
+Answer (JSON only):",RevenuePricingAgent,room_rate_inquiry,RevenuePricingAgent,room_rate_inquiry,"{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""room_rate_inquiry""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""room_rate_request""} identified responsible agent and specific intent.
+Answer ("
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Display annual hotel revenue.
+Answer (JSON only):",ReportingAnalyticsAgent,revenue_report_request,ReportingAnalyticsAgent,revenue_report_request,"{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""revenue_report_request""}
+Answer (JSON only):{""agent_label"": ""RevenueAnalyticsAgent"", ""intent_name"": ""annual_revenue_request""} Answer only in JSON format.
+Answer (JSON only):{""agent_label"": """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Provide bookings by nationality.
+Answer (JSON only):",ReportingAnalyticsAgent,booking_report_request,ReportingAnalyticsAgent,booking_report_request,"{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""booking_report_request""} Identify the responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""booking_summary_request""} Identify the responsible agent and specific intent.
+Answer (JSON"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Open the executive reporting dashboard.
+Answer (JSON only):",ReportingAnalyticsAgent,dashboard_request,ReportingAnalyticsAgent,dashboard_request,"{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""dashboard_request""} 
+Answer (JSON only):{""agent_label"": ""ConversationalAnalyticsAgent"", ""intent_name"": ""query_analysis""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Generate today's financial overview.
+Answer (JSON only):",ReportingAnalyticsAgent,daily_summary_request,ReportingAnalyticsAgent,daily_summary_request,"{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""daily_summary_request""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""revenue_summary_request""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"","
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Generate this month's financial overview.
+Answer (JSON only):",ReportingAnalyticsAgent,monthly_summary_request,ReportingAnalyticsAgent,monthly_summary_request,"{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""monthly_summary_request""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""revenue_summary_request""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"","
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Generate the weekly business overview.
+Answer (JSON only):",ReportingAnalyticsAgent,weekly_summary_request,ReportingAnalyticsAgent,weekly_summary_request,"{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""weekly_summary_request""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""weekly_summary_request""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", """
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Show today's total revenue.
+Answer (JSON only):",ReportingAnalyticsAgent,kpi_request,ReportingAnalyticsAgent,daily_revenue_request,"{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""daily_revenue_request""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""revenue_summary_request""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Identify the best-performing hotel branch.
+Answer (JSON only):",ReportingAnalyticsAgent,analytics_query,ReportingAnalyticsAgent,performance_report_request,"{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""performance_report_request""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""rate_adjustment_request""} identified responsible agent and specific intent.
+Answer (JSON"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Generate the occupancy report for the past 30 days.
+Answer (JSON only):",ReportingAnalyticsAgent,occupancy_report_request,ReportingAnalyticsAgent,occupancy_report_request,"{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""occupancy_report_request""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""occupancy_analysis_request""} 
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Show an overall performance dashboard summary.
+Answer (JSON only):",ReportingAnalyticsAgent,performance_summary_request,ReportingAnalyticsAgent,performance_summary_request,"{""agent_label"": ""ReportingAnalyticsAgent"", ""intent_name"": ""performance_summary_request""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""RevenuePricingAgent"", ""intent_name"": ""rate_card_inquiry""} identified responsible agent and specific intent.
+Answer (JSON"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Can you help make the room safe for a toddler?
+Answer (JSON only):",HousekeepingAgent,special_request,HousekeepingAgent,room_preparation_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""room_preparation_request""}.
+Answer (JSON only):{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""facility_request""}.
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: I think I left my headphones in the room, could you check?
+Answer (JSON only):",HousekeepingAgent,lost_and_found_request,HousekeepingAgent,lost_and_found_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""lost_and_found_request""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""ConciergeAgent"", ""intent_name"": ""lost_and_found_request""} identified responsible agent and specific intent.
+Answer ("
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Is there a kids' menu available for room service?
+Answer (JSON only):",FnBAgent,menu_inquiry,FnBAgent,menu_inquiry,"{""agent_label"": ""FnBAgent"", ""intent_name"": ""menu_inquiry""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""menu_inquiry""} identified responsible agent and specific intent.
+Answer (JSON only):"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: What desserts are available for room service?
+Answer (JSON only):",FnBAgent,menu_inquiry,FnBAgent,menu_inquiry,"{""agent_label"": ""FnBAgent"", ""intent_name"": ""menu_inquiry""} identified responsible agent and specific intent.
+
+Query: Can you recommend a local restaurant?
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""restaurant_recommendation""} identified responsible agent"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Is it possible to switch to a room with a bathtub?
+Answer (JSON only):",HousekeepingAgent,room_change_request,HousekeepingAgent,room_change_request,"{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""room_change_request""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""HousekeepingAgent"", ""intent_name"": ""room_change_request""} identified responsible agent and specific intent.
+Answer (JSON only):"
+"you are an intent classifier for the hotel AI System called Stanza AI. Given a guest or staff query identify the responsible agent and specific intent.
+
+Query: Do you have any low-calorie options on the menu?
+Answer (JSON only):",FnBAgent,menu_inquiry,FnBAgent,menu_inquiry,"{""agent_label"": ""FnBAgent"", ""intent_name"": ""menu_inquiry""} identified responsible agent and specific intent.
+Answer (JSON only):{""agent_label"": ""FnBAgent"", ""intent_name"": ""menu_information_request""} identified responsible agent and specific intent.
+Answer (JSON only):"
