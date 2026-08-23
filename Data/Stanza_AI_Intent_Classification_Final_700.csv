@@ -1,0 +1,701 @@
+record_id,agent_label,intent_name,query,entities,language,split
+27,reservations,reservation_upsell,Can I add a early check-in package to my reservation?,"{""addon"": ""early check-in package""}",en,train
+37,reservations,reservation_rate_question,What's the price of a family room for a week?,"{""room_type"": ""family room"", ""nights"": ""a week""}",en,train
+49,reservations,reservation_modify,Can I change my booking from December 24th to December 26th?,"{""original_date"": ""December 24th"", ""new_date"": ""December 26th""}",en,train
+56,reservations,reservation_rate_question,Can you tell me the price for five nights in a standard room?,"{""nights"": ""five nights"", ""room_type"": ""standard room""}",en,train
+60,reservations,reservation_availability,Do you have any garden-view rooms free this this weekend?,"{""room_type"": ""garden-view room"", ""date"": ""this weekend""}",en,train
+67,reservations,reservation_modify,Can I switch my room to an ocean-view room instead of the penthouse suite?,"{""old_room_type"": ""penthouse suite"", ""new_room_type"": ""ocean-view room""}",en,train
+81,reservations,reservation_cancel,Can you cancel reservation 82102 for me?,"{""booking_id"": ""82102""}",en,train
+95,reservations,reservation_create,Can I get a garden-view room for five nights starting next month?,"{""room_type"": ""garden-view room"", ""nights"": ""five nights"", ""check_in_date"": ""next month""}",en,train
+98,reservations,reservation_modify,Can you update my booking number 78765 to two nights over the weekend?,"{""booking_id"": ""78765"", ""nights"": ""two nights over the weekend""}",en,train
+102,reservations,reservation_modify,Can I switch my room to an ocean-view room instead of the garden-view room?,"{""old_room_type"": ""garden-view room"", ""new_room_type"": ""ocean-view room""}",en,train
+115,reservations,reservation_cancel,Can you cancel reservation 81118 for me?,"{""booking_id"": ""81118""}",en,train
+120,reservations,reservation_availability,Do you have any garden-view rooms free this next Monday?,"{""room_type"": ""garden-view room"", ""date"": ""next Monday""}",en,train
+123,reservations,reservation_cancel,"Cancel my stay starting next month, plans changed.","{""check_in_date"": ""next month""}",en,validation
+124,reservations,reservation_rate_question,What is the rate for a deluxe room this Saturday?,"{""room_type"": ""deluxe room"", ""date"": ""this Saturday""}",en,train
+126,reservations,reservation_rate_question,How much would a double room cost this Friday to this Monday?,"{""room_type"": ""double room"", ""check_in_date"": ""this Friday"", ""check_out_date"": ""this Monday""}",en,train
+144,reservations,reservation_upsell,Can I upgrade my double room to a deluxe room?,"{""old_room_type"": ""double room"", ""new_room_type"": ""deluxe room""}",en,validation
+165,reservations,reservation_cancel,Can you cancel reservation 85392 for me?,"{""booking_id"": ""85392""}",en,train
+172,reservations,reservation_create,Please reserve a family room starting next month.,"{""room_type"": ""family room"", ""check_in_date"": ""next month""}",en,train
+173,reservations,reservation_upsell,Can I upgrade my deluxe room to a garden-view room?,"{""old_room_type"": ""deluxe room"", ""new_room_type"": ""garden-view room""}",en,train
+176,reservations,reservation_modify,Can you change my reservation to a single room?,"{""new_room_type"": ""single room""}",en,validation
+198,reservations,reservation_upsell,Is it possible to add breakfast package to booking 94518?,"{""addon"": ""breakfast package"", ""booking_id"": ""94518""}",en,train
+205,reservations,reservation_modify,Can you update my booking number 18675 to one night?,"{""booking_id"": ""18675"", ""nights"": ""one night""}",en,train
+207,reservations,reservation_cancel,Please cancel my booking for the 3rd of July.,"{""date"": ""the 3rd of July""}",en,test
+209,reservations,reservation_rate_question,What's the price of a twin room for three nights?,"{""room_type"": ""twin room"", ""nights"": ""three nights""}",en,train
+214,reservations,reservation_availability,Are there vacancies for two adults September 5th?,"{""guest_count"": ""two adults"", ""date"": ""September 5th""}",en,validation
+220,reservations,reservation_upsell,Can I upgrade my premium room to a twin room?,"{""old_room_type"": ""premium room"", ""new_room_type"": ""twin room""}",en,train
+238,reservations,reservation_rate_question,What's the nightly rate for the executive room?,"{""room_type"": ""executive room""}",en,validation
+249,reservations,reservation_create,Can you set up a reservation for five guests arriving the 3rd of July?,"{""guest_count"": ""five guests"", ""check_in_date"": ""the 3rd of July""}",en,test
+259,reservations,reservation_availability,Are there any premium rooms available from October 10th to October 14th?,"{""room_type"": ""premium room"", ""check_in_date"": ""October 10th"", ""check_out_date"": ""October 14th""}",en,train
+293,reservations,reservation_upsell,Is it possible to add ocean-view upgrade to booking 92306?,"{""addon"": ""ocean-view upgrade"", ""booking_id"": ""92306""}",en,train
+295,reservations,reservation_availability,Do you have availability for two nights over the weekend starting tomorrow?,"{""nights"": ""two nights over the weekend"", ""check_in_date"": ""tomorrow""}",en,test
+309,reservations,reservation_availability,Is a garden-view room available for three guests Christmas?,"{""room_type"": ""garden-view room"", ""guest_count"": ""three guests"", ""date"": ""Christmas""}",en,train
+312,reservations,reservation_create,Please book a double room from November 20th to November 23rd for two people.,"{""room_type"": ""double room"", ""check_in_date"": ""November 20th"", ""check_out_date"": ""November 23rd"", ""guest_count"": ""two people""}",en,train
+314,reservations,reservation_availability,Are there vacancies for five guests next Monday?,"{""guest_count"": ""five guests"", ""date"": ""next Monday""}",en,train
+318,reservations,reservation_cancel,Can you cancel my reservation for August 20th to August 23rd?,"{""check_in_date"": ""August 20th"", ""check_out_date"": ""August 23rd""}",en,train
+340,reservations,reservation_rate_question,How much would a twin room cost March 2nd to March 6th?,"{""room_type"": ""twin room"", ""check_in_date"": ""March 2nd"", ""check_out_date"": ""March 6th""}",en,train
+347,reservations,reservation_cancel,"Please remove my booking, I no longer need the penthouse suite.","{""room_type"": ""penthouse suite""}",en,train
+353,reservations,reservation_availability,Do you have any rooms left for this Thursday?,"{""date"": ""this Thursday""}",en,train
+362,reservations,reservation_modify,I want to change my room from twin room to standard room.,"{""old_room_type"": ""twin room"", ""new_room_type"": ""standard room""}",en,train
+365,reservations,reservation_availability,Can you check if a premium room is free September 5th?,"{""room_type"": ""premium room"", ""date"": ""September 5th""}",en,train
+372,reservations,reservation_create,I'd like to book a standard room for September 5th.,"{""room_type"": ""standard room"", ""check_in_date"": ""September 5th""}",en,train
+376,reservations,reservation_create,"Book me a double room, please, for three guests.","{""room_type"": ""double room"", ""guest_count"": ""three guests""}",en,train
+377,reservations,reservation_cancel,Can you cancel reservation 74942 for me?,"{""booking_id"": ""74942""}",en,train
+379,reservations,reservation_create,Please reserve an executive room starting October 12th.,"{""room_type"": ""executive room"", ""check_in_date"": ""October 12th""}",en,train
+380,reservations,reservation_rate_question,What's the price of an executive room for three nights?,"{""room_type"": ""executive room"", ""nights"": ""three nights""}",en,train
+388,reservations,reservation_upsell,Can I add a late checkout package to my reservation?,"{""addon"": ""late checkout package""}",en,validation
+389,reservations,reservation_upsell,Can I upgrade my family room to a garden-view room?,"{""old_room_type"": ""family room"", ""new_room_type"": ""garden-view room""}",en,train
+404,reservations,reservation_rate_question,How much is a single room per night?,"{""room_type"": ""single room""}",en,test
+411,reservations,reservation_create,I'd like to book a deluxe room for tomorrow.,"{""room_type"": ""deluxe room"", ""check_in_date"": ""tomorrow""}",en,train
+426,reservations,reservation_rate_question,How much would a penthouse suite cost this Friday to this Monday?,"{""room_type"": ""penthouse suite"", ""check_in_date"": ""this Friday"", ""check_out_date"": ""this Monday""}",en,train
+431,reservations,reservation_upsell,Can I upgrade my current room to an ocean-view room for one night?,"{""new_room_type"": ""ocean-view room"", ""nights"": ""one night""}",en,train
+435,reservations,reservation_create,Can I book a room for New Year's Eve?,"{""check_in_date"": ""New Year's Eve""}",en,validation
+443,reservations,reservation_rate_question,What's the price of a garden-view room for a week?,"{""room_type"": ""garden-view room"", ""nights"": ""a week""}",en,train
+445,reservations,reservation_modify,Can you update my booking number 62296 to five nights?,"{""booking_id"": ""62296"", ""nights"": ""five nights""}",en,validation
+451,reservations,reservation_cancel,Can you cancel reservation 96200 for me?,"{""booking_id"": ""96200""}",en,test
+455,reservations,reservation_rate_question,How much is a suite per night?,"{""room_type"": ""suite""}",en,test
+465,reservations,reservation_rate_question,How much is a family room per night?,"{""room_type"": ""family room""}",en,train
+466,reservations,reservation_availability,Is a family room available for two adults and a kid this Thursday?,"{""room_type"": ""family room"", ""guest_count"": ""two adults and a kid"", ""date"": ""this Thursday""}",en,train
+467,reservations,reservation_modify,Can you update my booking number 47388 to two nights?,"{""booking_id"": ""47388"", ""nights"": ""two nights""}",en,train
+470,reservations,reservation_upsell,Is it possible to add spa access package to booking 35048?,"{""addon"": ""spa access package"", ""booking_id"": ""35048""}",en,train
+478,reservations,reservation_create,I'd like a deluxe room booked for October 10th to October 14th.,"{""room_type"": ""deluxe room"", ""check_in_date"": ""October 10th"", ""check_out_date"": ""October 14th""}",en,validation
+494,reservations,reservation_modify,I need to move my check-in date to the 15th of November.,"{""new_date"": ""the 15th of November""}",en,train
+507,reservations,reservation_modify,Can I switch my room to a family room instead of the double room?,"{""old_room_type"": ""double room"", ""new_room_type"": ""family room""}",en,train
+522,reservations,reservation_modify,Please change my reservation dates to next Friday through next Sunday.,"{""new_check_in"": ""next Friday"", ""new_check_out"": ""next Sunday""}",en,test
+527,reservations,reservation_cancel,Can you cancel reservation 28894 for me?,"{""booking_id"": ""28894""}",en,train
+536,reservations,reservation_cancel,"Cancel my stay starting in two weeks, plans changed.","{""check_in_date"": ""in two weeks""}",en,train
+538,reservations,reservation_availability,Do you have any suites free this tomorrow?,"{""room_type"": ""suite"", ""date"": ""tomorrow""}",en,train
+555,reservations,reservation_modify,Can I switch my room to a deluxe room instead of the family room?,"{""old_room_type"": ""family room"", ""new_room_type"": ""deluxe room""}",en,train
+575,reservations,reservation_create,I need a room from August 20th to August 23rd.,"{""check_in_date"": ""August 20th"", ""check_out_date"": ""August 23rd""}",en,train
+577,reservations,reservation_availability,Can you tell me what's available December 24th?,"{""date"": ""December 24th""}",en,train
+591,reservations,reservation_upsell,Is it possible to add ocean-view upgrade to booking 60422?,"{""addon"": ""ocean-view upgrade"", ""booking_id"": ""60422""}",en,train
+592,reservations,reservation_availability,Are there any suites available from June 5th to June 9th?,"{""room_type"": ""suite"", ""check_in_date"": ""June 5th"", ""check_out_date"": ""June 9th""}",en,validation
+597,reservations,reservation_cancel,"Cancel my stay starting this Thursday, plans changed.","{""check_in_date"": ""this Thursday""}",en,train
+607,reservations,reservation_create,I want to make a new booking for Christmas.,"{""check_in_date"": ""Christmas""}",en,train
+622,reservations,reservation_create,Can you make a reservation for six nights?,"{""nights"": ""six nights""}",en,test
+645,reservations,reservation_upsell,What's the cost to add spa access package to my stay?,"{""addon"": ""spa access package""}",en,train
+696,reservations,reservation_availability,Can you check if a garden-view room is free in two weeks?,"{""room_type"": ""garden-view room"", ""date"": ""in two weeks""}",en,train
+704,reservations,reservation_rate_question,How much for one guest in a penthouse suite?,"{""guest_count"": ""one guest"", ""room_type"": ""penthouse suite""}",en,train
+718,reservations,reservation_availability,Do you have any rooms available next month?,"{""date"": ""next month""}",en,train
+728,reservations,reservation_upsell,Is it possible to add spa access package to booking 89482?,"{""addon"": ""spa access package"", ""booking_id"": ""89482""}",en,test
+741,reservations,reservation_modify,I'd like to extend my stay by a week.,"{""extension"": ""a week""}",en,train
+745,reservations,reservation_availability,Do you have any executive rooms free this this weekend?,"{""room_type"": ""executive room"", ""date"": ""this weekend""}",en,train
+753,reservations,reservation_create,Can you set up a reservation for a couple arriving this coming Sunday?,"{""guest_count"": ""a couple"", ""check_in_date"": ""this coming Sunday""}",en,train
+755,reservations,reservation_rate_question,How much would a family room cost November 20th to November 23rd?,"{""room_type"": ""family room"", ""check_in_date"": ""November 20th"", ""check_out_date"": ""November 23rd""}",en,train
+780,reservations,reservation_create,We'd like to reserve two rooms for November 20th through November 23rd.,"{""check_in_date"": ""November 20th"", ""check_out_date"": ""November 23rd"", ""room_count"": ""2""}",en,train
+785,reservations,reservation_availability,Is a single room available for two adults and a kid September 5th?,"{""room_type"": ""single room"", ""guest_count"": ""two adults and a kid"", ""date"": ""September 5th""}",en,test
+794,reservations,reservation_upsell,Can I upgrade my current room to a single room for two nights over the weekend?,"{""new_room_type"": ""single room"", ""nights"": ""two nights over the weekend""}",en,train
+797,reservations,reservation_modify,I need to move my check-in date to October 12th.,"{""new_date"": ""October 12th""}",en,train
+802,reservations,reservation_create,I'd like to book a premium room for this Thursday.,"{""room_type"": ""premium room"", ""check_in_date"": ""this Thursday""}",en,train
+812,reservations,reservation_availability,Are there any premium rooms available from September 1st to September 5th?,"{""room_type"": ""premium room"", ""check_in_date"": ""September 1st"", ""check_out_date"": ""September 5th""}",en,train
+827,reservations,reservation_availability,Is a family room available for four people next Friday?,"{""room_type"": ""family room"", ""guest_count"": ""four people"", ""date"": ""next Friday""}",en,train
+830,reservations,reservation_create,Please reserve a premium room starting December 24th.,"{""room_type"": ""premium room"", ""check_in_date"": ""December 24th""}",en,train
+840,reservations,reservation_create,Can you set up a reservation for one guest arriving the 3rd of July?,"{""guest_count"": ""one guest"", ""check_in_date"": ""the 3rd of July""}",en,train
+861,reservations,reservation_availability,Are there vacancies for four people next month?,"{""guest_count"": ""four people"", ""date"": ""next month""}",en,train
+864,reservations,reservation_create,Can I book a room for next Monday?,"{""check_in_date"": ""next Monday""}",en,train
+871,reservations,reservation_availability,Are there vacancies for one guest New Year's Eve?,"{""guest_count"": ""one guest"", ""date"": ""New Year's Eve""}",en,train
+880,reservations,reservation_create,I'd like to book a deluxe room for next Friday.,"{""room_type"": ""deluxe room"", ""check_in_date"": ""next Friday""}",en,train
+891,reservations,reservation_cancel,Can you cancel reservation 78937 for me?,"{""booking_id"": ""78937""}",en,train
+898,reservations,reservation_rate_question,How much for five guests in an ocean-view room?,"{""guest_count"": ""five guests"", ""room_type"": ""ocean-view room""}",en,train
+901,reservations,reservation_modify,Please change my reservation dates to August 20th through August 23rd.,"{""new_check_in"": ""August 20th"", ""new_check_out"": ""August 23rd""}",en,train
+957,frontdesk,frontdesk_id_document,Where can I submit my ID?,{},en,train
+966,frontdesk,frontdesk_room_assignment,Can you reassign this guest to a quieter room?,"{""preference"": ""quiet_room""}",en,train
+997,frontdesk,frontdesk_pre_arrival_info,Is there parking available for guests arriving in two weeks?,"{""topic"": ""parking"", ""date"": ""in two weeks""}",en,test
+998,frontdesk,frontdesk_room_assignment,Can you put Mr. Sharma in room 330?,"{""guest_name"": ""Mr. Sharma"", ""room_number"": ""330""}",en,train
+1001,frontdesk,frontdesk_room_assignment,Can you assign room 428 to this guest?,"{""room_number"": ""428""}",en,train
+1005,frontdesk,frontdesk_checkout,Can the Chen family get a late checkout until noon?,"{""guest_name"": ""the Chen family"", ""requested_time"": ""noon"", ""late_checkout"": ""true""}",en,train
+1007,frontdesk,frontdesk_checkout,Can I check out at 11 AM on the 15th of November?,"{""requested_time"": ""11 AM"", ""date"": ""the 15th of November""}",en,train
+1013,frontdesk,frontdesk_checkout,Can I check out at 2 PM on August 20th?,"{""requested_time"": ""2 PM"", ""date"": ""August 20th""}",en,train
+1014,frontdesk,frontdesk_pre_arrival_info,What should the Johnsons know before arriving on this coming Sunday?,"{""topic"": ""pre_arrival_info"", ""guest_name"": ""the Johnsons"", ""date"": ""this coming Sunday""}",en,train
+1022,frontdesk,frontdesk_id_document,Can Mr. Kim check in with just a passport?,"{""guest_name"": ""Mr. Kim"", ""document"": ""passport""}",en,train
+1029,frontdesk,frontdesk_checkout,Can I check out at 11 AM on next Monday?,"{""requested_time"": ""11 AM"", ""date"": ""next Monday""}",en,train
+1031,frontdesk,frontdesk_checkin,Can Mr. Sharma check in at 9 AM?,"{""guest_name"": ""Mr. Sharma"", ""requested_time"": ""9 AM""}",en,train
+1034,frontdesk,frontdesk_checkin,Am I able to check in ahead of the usual time on the 15th of November?,"{""early_checkin"": ""true"", ""date"": ""the 15th of November""}",en,train
+1044,frontdesk,frontdesk_pre_arrival_info,What should the Johnsons know before arriving on December 24th?,"{""topic"": ""pre_arrival_info"", ""guest_name"": ""the Johnsons"", ""date"": ""December 24th""}",en,validation
+1046,frontdesk,frontdesk_pre_arrival_info,Is there parking available for guests arriving this Thursday?,"{""topic"": ""parking"", ""date"": ""this Thursday""}",en,train
+1052,frontdesk,frontdesk_checkout,Can I check out at 3 PM on October 12th?,"{""requested_time"": ""3 PM"", ""date"": ""October 12th""}",en,train
+1069,frontdesk,frontdesk_id_document,Do you need a copy of my government-issued photo ID?,"{""document"": ""government-issued photo ID""}",en,train
+1070,frontdesk,frontdesk_room_assignment,Can you put the Johnsons in room 310?,"{""guest_name"": ""the Johnsons"", ""room_number"": ""310""}",en,train
+1094,frontdesk,frontdesk_checkin,Can I check in at 9 AM on December 24th?,"{""requested_time"": ""9 AM"", ""date"": ""December 24th""}",en,train
+1098,frontdesk,frontdesk_checkout,Can Dr. Owens get a late checkout until 9 AM?,"{""guest_name"": ""Dr. Owens"", ""requested_time"": ""9 AM"", ""late_checkout"": ""true""}",en,test
+1106,frontdesk,frontdesk_id_document,Should I email a scan of my passport before arrival?,"{""document"": ""passport""}",en,train
+1113,frontdesk,frontdesk_room_assignment,Can you put Mr. Ahmed in room 204?,"{""guest_name"": ""Mr. Ahmed"", ""room_number"": ""204""}",en,validation
+1116,frontdesk,frontdesk_checkout,What is the checkout procedure?,{},en,train
+1135,frontdesk,frontdesk_checkout,Can I check out at 9 AM on next Friday?,"{""requested_time"": ""9 AM"", ""date"": ""next Friday""}",en,validation
+1142,frontdesk,frontdesk_pre_arrival_info,Can you send the Chen family directions to the property?,"{""topic"": ""directions"", ""guest_name"": ""the Chen family""}",en,train
+1143,frontdesk,frontdesk_id_document,Can Dr. Owens check in with just a driver's license?,"{""guest_name"": ""Dr. Owens"", ""document"": ""driver's license""}",en,train
+1144,frontdesk,frontdesk_checkin,Can Dr. Owens check in at 9 AM?,"{""guest_name"": ""Dr. Owens"", ""requested_time"": ""9 AM""}",en,train
+1162,frontdesk,frontdesk_room_assignment,Can you put Mr. Sharma in room 119?,"{""guest_name"": ""Mr. Sharma"", ""room_number"": ""119""}",en,train
+1165,frontdesk,frontdesk_checkout,Can I get a late checkout for in two weeks?,"{""late_checkout"": ""true"", ""date"": ""in two weeks""}",en,train
+1166,frontdesk,frontdesk_pre_arrival_info,What are the arrival instructions for this Saturday?,"{""topic"": ""arrival_instructions"", ""date"": ""this Saturday""}",en,train
+1174,frontdesk,frontdesk_checkin,Can Mr. Kim check in at 2 PM?,"{""guest_name"": ""Mr. Kim"", ""requested_time"": ""2 PM""}",en,train
+1183,frontdesk,frontdesk_room_assignment,Can you move Mrs. Patel to a room on a higher floor?,"{""guest_name"": ""Mrs. Patel"", ""preference"": ""higher_floor""}",en,train
+1192,frontdesk,frontdesk_room_assignment,Please assign a twin room to Mr. Kim.,"{""room_type"": ""twin room"", ""guest_name"": ""Mr. Kim""}",en,train
+1203,frontdesk,frontdesk_room_assignment,Can you put the Johnsons in room 119?,"{""guest_name"": ""the Johnsons"", ""room_number"": ""119""}",en,train
+1207,frontdesk,frontdesk_id_document,What documents should Mrs. Patel bring for check-in?,"{""guest_name"": ""Mrs. Patel""}",en,test
+1215,frontdesk,frontdesk_checkin,Could I possibly check in earlier than noon?,"{""requested_time"": ""noon"", ""early_checkin"": ""true""}",en,validation
+1226,frontdesk,frontdesk_checkout,Can I check out at 10:00 AM on next Friday?,"{""requested_time"": ""10:00 AM"", ""date"": ""next Friday""}",en,train
+1228,frontdesk,frontdesk_checkout,What time is checkout on September 5th?,"{""date"": ""September 5th""}",en,train
+1238,frontdesk,frontdesk_id_document,Can Mr. Sharma check in with just a passport?,"{""guest_name"": ""Mr. Sharma"", ""document"": ""passport""}",en,validation
+1239,frontdesk,frontdesk_id_document,Is a driver's license sufficient for check-in on next month?,"{""document"": ""driver's license"", ""date"": ""next month""}",en,test
+1242,frontdesk,frontdesk_checkin,Am I able to check in ahead of the usual time on Christmas?,"{""early_checkin"": ""true"", ""date"": ""Christmas""}",en,train
+1243,frontdesk,frontdesk_checkin,Can Mr. Sharma check in at 11 AM?,"{""guest_name"": ""Mr. Sharma"", ""requested_time"": ""11 AM""}",en,train
+1246,frontdesk,frontdesk_room_assignment,Can you assign room 119 to this guest?,"{""room_number"": ""119""}",en,test
+1252,frontdesk,frontdesk_pre_arrival_info,What do I need to know before arriving this Thursday?,"{""topic"": ""pre_arrival_info"", ""date"": ""this Thursday""}",en,train
+1253,frontdesk,frontdesk_pre_arrival_info,What time should I arrive at the hotel?,"{""topic"": ""arrival_time""}",en,train
+1260,frontdesk,frontdesk_checkin,Can I check in at 1 PM on the 3rd of July?,"{""requested_time"": ""1 PM"", ""date"": ""the 3rd of July""}",en,train
+1265,frontdesk,frontdesk_checkout,Can I request a late checkout?,"{""late_checkout"": ""true""}",en,train
+1268,frontdesk,frontdesk_checkin,Can you confirm what time check-in starts on September 5th?,"{""date"": ""September 5th""}",en,train
+1284,frontdesk,frontdesk_room_assignment,Can you move Mrs. Novak to a room on a higher floor?,"{""guest_name"": ""Mrs. Novak"", ""preference"": ""higher_floor""}",en,train
+1289,frontdesk,frontdesk_id_document,What documents should Ms. Lee bring for check-in?,"{""guest_name"": ""Ms. Lee""}",en,train
+1297,frontdesk,frontdesk_pre_arrival_info,Is there parking available for guests arriving New Year's Eve?,"{""topic"": ""parking"", ""date"": ""New Year's Eve""}",en,test
+1300,frontdesk,frontdesk_room_assignment,Can you put Mrs. Novak in room 118?,"{""guest_name"": ""Mrs. Novak"", ""room_number"": ""118""}",en,train
+1304,frontdesk,frontdesk_checkin,What time can I check in this coming Sunday?,"{""date"": ""this coming Sunday""}",en,train
+1315,frontdesk,frontdesk_pre_arrival_info,Is there parking available for guests arriving August 20th?,"{""topic"": ""parking"", ""date"": ""August 20th""}",en,train
+1317,frontdesk,frontdesk_pre_arrival_info,Where should five guests check in once we arrive?,"{""topic"": ""arrival_instructions"", ""guest_count"": ""five guests""}",en,train
+1319,frontdesk,frontdesk_checkin,Can Ms. Lee check in at 11 AM?,"{""guest_name"": ""Ms. Lee"", ""requested_time"": ""11 AM""}",en,train
+1324,frontdesk,frontdesk_checkin,Can the Johnsons check in at 9 AM?,"{""guest_name"": ""the Johnsons"", ""requested_time"": ""9 AM""}",en,test
+1329,frontdesk,frontdesk_pre_arrival_info,Can you send Mr. Sharma directions to the property?,"{""topic"": ""directions"", ""guest_name"": ""Mr. Sharma""}",en,train
+1335,frontdesk,frontdesk_checkout,Can Ms. Rodriguez get a late checkout until noon?,"{""guest_name"": ""Ms. Rodriguez"", ""requested_time"": ""noon"", ""late_checkout"": ""true""}",en,train
+1339,frontdesk,frontdesk_checkout,What time do I need to check out?,{},en,train
+1343,frontdesk,frontdesk_pre_arrival_info,Is there parking available for guests arriving next Friday?,"{""topic"": ""parking"", ""date"": ""next Friday""}",en,train
+1345,frontdesk,frontdesk_pre_arrival_info,Where should three guests check in once we arrive?,"{""topic"": ""arrival_instructions"", ""guest_count"": ""three guests""}",en,train
+1346,frontdesk,frontdesk_checkout,Could I extend my checkout to 2 PM?,"{""requested_time"": ""2 PM"", ""late_checkout"": ""true""}",en,train
+1347,frontdesk,frontdesk_room_assignment,Can you put Ms. Lee in room 118?,"{""guest_name"": ""Ms. Lee"", ""room_number"": ""118""}",en,train
+1364,frontdesk,frontdesk_checkin,Can you confirm what time check-in starts on August 20th?,"{""date"": ""August 20th""}",en,train
+1367,frontdesk,frontdesk_checkin,Can I check in at noon on next Monday?,"{""requested_time"": ""noon"", ""date"": ""next Monday""}",en,train
+1368,frontdesk,frontdesk_pre_arrival_info,What should Mr. Sharma know before arriving on next Monday?,"{""topic"": ""pre_arrival_info"", ""guest_name"": ""Mr. Sharma"", ""date"": ""next Monday""}",en,validation
+1405,frontdesk,frontdesk_checkout,Has Dr. Owens's checkout been completed?,"{""guest_name"": ""Dr. Owens""}",en,train
+1417,frontdesk,frontdesk_checkin,What time can I check in in two weeks?,"{""date"": ""in two weeks""}",en,validation
+1428,frontdesk,frontdesk_checkout,Can you confirm what time checkout is on the 15th of November?,"{""date"": ""the 15th of November""}",en,validation
+1434,frontdesk,frontdesk_checkout,Can the Johnsons get a late checkout until 3 PM?,"{""guest_name"": ""the Johnsons"", ""requested_time"": ""3 PM"", ""late_checkout"": ""true""}",en,train
+1443,frontdesk,frontdesk_checkout,Can I check out at 10:00 AM on this coming Sunday?,"{""requested_time"": ""10:00 AM"", ""date"": ""this coming Sunday""}",en,train
+1446,frontdesk,frontdesk_checkin,Can Mr. Ahmed check in at 3 PM?,"{""guest_name"": ""Mr. Ahmed"", ""requested_time"": ""3 PM""}",en,train
+1453,frontdesk,frontdesk_checkin,Can I check in at 10:00 AM on next Monday?,"{""requested_time"": ""10:00 AM"", ""date"": ""next Monday""}",en,train
+1474,frontdesk,frontdesk_id_document,Do you need a copy of my national ID card?,"{""document"": ""national ID card""}",en,train
+1500,frontdesk,frontdesk_room_assignment,Can you assign room 601 to this guest?,"{""room_number"": ""601""}",en,train
+1505,frontdesk,frontdesk_checkin,Can I check in at 10:00 AM on this Saturday?,"{""requested_time"": ""10:00 AM"", ""date"": ""this Saturday""}",en,train
+1507,frontdesk,frontdesk_pre_arrival_info,Is there parking available for guests arriving December 24th?,"{""topic"": ""parking"", ""date"": ""December 24th""}",en,train
+1517,frontdesk,frontdesk_pre_arrival_info,What do I need to know before arriving next Monday?,"{""topic"": ""pre_arrival_info"", ""date"": ""next Monday""}",en,train
+1520,frontdesk,frontdesk_checkin,What's the earliest I can check in on December 24th?,"{""date"": ""December 24th""}",en,train
+1521,frontdesk,frontdesk_id_document,Is a passport sufficient for check-in on New Year's Eve?,"{""document"": ""passport"", ""date"": ""New Year's Eve""}",en,train
+1527,frontdesk,frontdesk_room_assignment,Can you assign room 310 to this guest?,"{""room_number"": ""310""}",en,train
+1529,frontdesk,frontdesk_checkout,Is it possible to check out at 11 AM?,"{""requested_time"": ""11 AM""}",en,train
+1531,frontdesk,frontdesk_checkout,Can I check out at noon on this weekend?,"{""requested_time"": ""noon"", ""date"": ""this weekend""}",en,validation
+1539,frontdesk,frontdesk_checkin,What's the earliest I can check in on this weekend?,"{""date"": ""this weekend""}",en,train
+1543,frontdesk,frontdesk_pre_arrival_info,What should Mrs. Patel know before arriving on December 24th?,"{""topic"": ""pre_arrival_info"", ""guest_name"": ""Mrs. Patel"", ""date"": ""December 24th""}",en,train
+1545,frontdesk,frontdesk_checkout,Can you confirm what time checkout is on New Year's Eve?,"{""date"": ""New Year's Eve""}",en,train
+1569,frontdesk,frontdesk_checkin,Is early check-in possible for five guests?,"{""early_checkin"": ""true"", ""guest_count"": ""five guests""}",en,train
+1579,frontdesk,frontdesk_checkout,Can you confirm what time checkout is on August 20th?,"{""date"": ""August 20th""}",en,train
+1584,frontdesk,frontdesk_checkin,Can I check in at 3 PM on in two weeks?,"{""requested_time"": ""3 PM"", ""date"": ""in two weeks""}",en,train
+1589,frontdesk,frontdesk_pre_arrival_info,Can you send Ms. Lee directions to the property?,"{""topic"": ""directions"", ""guest_name"": ""Ms. Lee""}",en,train
+1596,frontdesk,frontdesk_id_document,Can Mrs. Patel check in with just a driver's license?,"{""guest_name"": ""Mrs. Patel"", ""document"": ""driver's license""}",en,train
+1597,frontdesk,frontdesk_checkin,What time can I check in October 12th?,"{""date"": ""October 12th""}",en,test
+1606,frontdesk,frontdesk_id_document,Do you keep a copy of guest ID on file?,{},en,train
+1610,frontdesk,frontdesk_checkin,Can I check in before 9 AM?,"{""requested_time"": ""9 AM""}",en,test
+1614,frontdesk,frontdesk_checkout,Has Ms. Rodriguez's checkout been completed?,"{""guest_name"": ""Ms. Rodriguez""}",en,test
+1630,frontdesk,frontdesk_checkin,Can I check in at 9 AM on this coming Sunday?,"{""requested_time"": ""9 AM"", ""date"": ""this coming Sunday""}",en,train
+1632,frontdesk,frontdesk_room_assignment,Can you put Mr. Kim in room 428?,"{""guest_name"": ""Mr. Kim"", ""room_number"": ""428""}",en,validation
+1649,frontdesk,frontdesk_checkin,Is Ms. Lee's room ready for check-in?,"{""guest_name"": ""Ms. Lee""}",en,train
+1659,frontdesk,frontdesk_pre_arrival_info,Is self-parking or valet parking available?,"{""topic"": ""parking""}",en,train
+1701,HousekeepingAgent,pest_control_request,"There are mosquitoes in my room, can you send pest control?","{""pest"": ""mosquitoes""}",en,train
+1702,HousekeepingAgent,amenity_request,Can I get 3 more extra pillows for room 105?,"{""item"": ""extra pillows"", ""qty"": 3, ""room_no"": ""105""}",en,test
+1705,HousekeepingAgent,laundry_request,"I need 1 a suit dry cleaned, when can I get them back?","{""item"": ""a suit"", ""qty"": 1, ""service"": ""dry_clean""}",en,train
+1727,HousekeepingAgent,supply_replenishment_request,"I need 2 more slippers, we've run out.","{""item"": ""slippers"", ""qty"": 2}",en,validation
+1751,HousekeepingAgent,maintenance_complaint,There's an issue in room 251 - the curtains are stuck.,"{""issue"": ""the curtains are stuck"", ""room_no"": ""251""}",en,train
+1754,HousekeepingAgent,housekeeping_schedule_request,Please schedule my room cleaning for morning.,"{""time_preference"": ""morning""}",en,train
+1756,HousekeepingAgent,amenity_request,Can I get 1 more an extra blanket for room 173?,"{""item"": ""an extra blanket"", ""qty"": 1, ""room_no"": ""173""}",en,train
+1761,HousekeepingAgent,pest_control_request,Could someone spray for mosquitoes in my room?,"{""pest"": ""mosquitoes""}",en,train
+1764,HousekeepingAgent,special_request,Can housekeeping help childproof the room?,"{""request_type"": ""childproofing""}",en,train
+1768,HousekeepingAgent,room_cleaning_request,"Can someone clean room 488, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""488""}",en,train
+1783,HousekeepingAgent,room_cleaning_request,"Can someone clean room 329, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""329""}",en,train
+1788,HousekeepingAgent,amenity_request,Can I get 1 more a comforter for room 534?,"{""item"": ""a comforter"", ""qty"": 1, ""room_no"": ""534""}",en,train
+1793,HousekeepingAgent,supply_replenishment_request,"Please send toilet paper to room, it's finished.","{""item"": ""toilet paper""}",en,test
+1794,HousekeepingAgent,amenity_request,Can I get 2 more towels for room 295?,"{""item"": ""towels"", ""qty"": 2, ""room_no"": ""295""}",en,validation
+1796,HousekeepingAgent,maintenance_complaint,There's an issue in room 443 - the TV is not turning on.,"{""issue"": ""the TV is not turning on"", ""room_no"": ""443""}",en,train
+1803,HousekeepingAgent,laundry_request,"I need 1 dresses dry cleaned, when can I get them back?","{""item"": ""dresses"", ""qty"": 1, ""service"": ""dry_clean""}",en,train
+1834,HousekeepingAgent,room_cleaning_request,"Can someone clean room 209, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""209""}",en,train
+1837,HousekeepingAgent,room_cleaning_request,"Can someone clean room 336, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""336""}",en,train
+1846,HousekeepingAgent,room_change_request,I'd like to switch to a room on a higher floor.,"{""reason"": ""floor preference""}",en,train
+1851,HousekeepingAgent,laundry_request,Please collect 4 a jacket for washing and ironing.,"{""item"": ""a jacket"", ""qty"": 4, ""service"": ""wash_and_iron""}",en,train
+1859,HousekeepingAgent,pest_control_request,"There are a small insect problem in my room, can you send pest control?","{""pest"": ""a small insect problem""}",en,train
+1860,HousekeepingAgent,maintenance_complaint,There's an issue in room 138 - there's a bad smell in the room.,"{""issue"": ""there's a bad smell in the room"", ""room_no"": ""138""}",en,train
+1888,HousekeepingAgent,laundry_request,Please collect 1 a jacket for washing and ironing.,"{""item"": ""a jacket"", ""qty"": 1, ""service"": ""wash_and_iron""}",en,train
+1897,HousekeepingAgent,room_cleaning_request,"Room 403 has not been cleaned since check-in, please arrange it.","{""service"": ""room_cleaning"", ""room_no"": ""403""}",en,train
+1899,HousekeepingAgent,supply_replenishment_request,"Please send drinking water bottles to room, it's finished.","{""item"": ""drinking water bottles""}",en,validation
+1922,HousekeepingAgent,room_cleaning_request,"Can someone clean room 134, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""134""}",en,train
+1929,HousekeepingAgent,maintenance_complaint,There's an issue in room 409 - there's a bad smell in the room.,"{""issue"": ""there's a bad smell in the room"", ""room_no"": ""409""}",en,validation
+1936,HousekeepingAgent,housekeeping_schedule_request,Please schedule my room cleaning for afternoon.,"{""time_preference"": ""afternoon""}",en,train
+1954,HousekeepingAgent,lost_and_found_request,"I left my watch in the room, can you check if it was found?","{""item"": ""watch""}",en,test
+1958,HousekeepingAgent,amenity_request,Can I get 3 more body lotion for room 122?,"{""item"": ""body lotion"", ""qty"": 3, ""room_no"": ""122""}",en,train
+1970,HousekeepingAgent,room_change_request,"Is it possible to move to a quieter room, this one is noisy?","{""reason"": ""noise""}",en,train
+1971,HousekeepingAgent,supply_replenishment_request,Can you restock the drinking water bottles in my room?,"{""item"": ""drinking water bottles""}",en,train
+1985,HousekeepingAgent,lost_and_found_request,"I left my phone in the room, can you check if it was found?","{""item"": ""phone""}",en,train
+2014,HousekeepingAgent,amenity_request,"I need pillows, can housekeeping bring it up?","{""item"": ""pillows""}",en,train
+2020,HousekeepingAgent,maintenance_complaint,There's an issue in room 501 - the door lock is jammed.,"{""issue"": ""the door lock is jammed"", ""room_no"": ""501""}",en,train
+2025,HousekeepingAgent,laundry_request,"Can you pick up my laundry, I have trousers to wash?","{""item"": ""trousers"", ""service"": ""laundry""}",en,train
+2026,HousekeepingAgent,room_cleaning_request,"Can someone clean room 388, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""388""}",en,train
+2027,HousekeepingAgent,housekeeping_schedule_request,What time does housekeeping usually clean the rooms?,{},en,train
+2051,HousekeepingAgent,room_cleaning_request,"Can someone clean room 269, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""269""}",en,train
+2053,HousekeepingAgent,supply_replenishment_request,"I need 3 more slippers, we've run out.","{""item"": ""slippers"", ""qty"": 3}",en,test
+2055,HousekeepingAgent,laundry_request,"Can you pick up my laundry, I have dresses to wash?","{""item"": ""dresses"", ""service"": ""laundry""}",en,train
+2066,HousekeepingAgent,special_request,Can you set up the room for a romantic evening with candles?,"{""request_type"": ""room_setup""}",en,train
+2098,HousekeepingAgent,room_cleaning_request,"Room 518 has not been cleaned since check-in, please arrange it.","{""service"": ""room_cleaning"", ""room_no"": ""518""}",en,train
+2099,HousekeepingAgent,room_cleaning_request,"Room 296 has not been cleaned since check-in, please arrange it.","{""service"": ""room_cleaning"", ""room_no"": ""296""}",en,train
+2108,HousekeepingAgent,maintenance_complaint,There's an issue in room 139 - the curtains are stuck.,"{""issue"": ""the curtains are stuck"", ""room_no"": ""139""}",en,train
+2110,HousekeepingAgent,laundry_request,What time does the laundry get picked up from the room?,"{""service"": ""laundry""}",en,train
+2114,HousekeepingAgent,room_cleaning_request,"Room 577 has not been cleaned since check-in, please arrange it.","{""service"": ""room_cleaning"", ""room_no"": ""577""}",en,train
+2118,HousekeepingAgent,pest_control_request,"I noticed ants near the window, please take care of it.","{""pest"": ""ants""}",en,test
+2135,HousekeepingAgent,room_cleaning_request,"Can someone clean room 578, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""578""}",en,train
+2141,HousekeepingAgent,pest_control_request,"I noticed a small insect problem near the window, please take care of it.","{""pest"": ""a small insect problem""}",en,train
+2142,HousekeepingAgent,room_cleaning_request,"Room 269 has not been cleaned since check-in, please arrange it.","{""service"": ""room_cleaning"", ""room_no"": ""269""}",en,test
+2145,HousekeepingAgent,maintenance_complaint,"Can someone fix this, the shower has low water pressure?","{""issue"": ""the shower has low water pressure""}",en,validation
+2149,HousekeepingAgent,maintenance_complaint,There's an issue in room 231 - the room light is flickering.,"{""issue"": ""the room light is flickering"", ""room_no"": ""231""}",en,train
+2164,HousekeepingAgent,room_cleaning_request,"Can someone clean room 305, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""305""}",en,train
+2168,HousekeepingAgent,supply_replenishment_request,Can you restock the toilet paper in my room?,"{""item"": ""toilet paper""}",en,validation
+2183,HousekeepingAgent,amenity_request,Can I get 2 more a comforter for room 129?,"{""item"": ""a comforter"", ""qty"": 2, ""room_no"": ""129""}",en,train
+2192,HousekeepingAgent,amenity_request,Please arrange 1 pillows for my room.,"{""item"": ""pillows"", ""qty"": 1}",en,train
+2228,HousekeepingAgent,lost_and_found_request,"I think I lost my charger, can you help locate it?","{""item"": ""charger""}",en,train
+2238,HousekeepingAgent,housekeeping_schedule_request,Can housekeeping come after 3 PM instead of now?,"{""time_preference"": ""after 3 PM""}",en,train
+2244,HousekeepingAgent,amenity_request,"I need shampoo, can housekeeping bring it up?","{""item"": ""shampoo""}",en,train
+2247,HousekeepingAgent,amenity_request,Can I get 3 more hand towels for room 257?,"{""item"": ""hand towels"", ""qty"": 3, ""room_no"": ""257""}",en,train
+2249,HousekeepingAgent,maintenance_complaint,I'd like to report that the door lock is jammed in my room.,"{""issue"": ""the door lock is jammed""}",en,train
+2253,HousekeepingAgent,amenity_request,Can I get 2 more a comforter for room 538?,"{""item"": ""a comforter"", ""qty"": 2, ""room_no"": ""538""}",en,train
+2265,HousekeepingAgent,amenity_request,Can I get 1 more cushions for room 308?,"{""item"": ""cushions"", ""qty"": 1, ""room_no"": ""308""}",en,train
+2294,HousekeepingAgent,laundry_request,"I need 4 a suit dry cleaned, when can I get them back?","{""item"": ""a suit"", ""qty"": 4, ""service"": ""dry_clean""}",en,train
+2299,HousekeepingAgent,room_cleaning_request,"Can someone clean room 441, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""441""}",en,train
+2326,HousekeepingAgent,supply_replenishment_request,"Please send tissue box to room, it's finished.","{""item"": ""tissue box""}",en,validation
+2331,HousekeepingAgent,room_cleaning_request,"Room 185 has not been cleaned since check-in, please arrange it.","{""service"": ""room_cleaning"", ""room_no"": ""185""}",en,train
+2365,HousekeepingAgent,supply_replenishment_request,"I need 2 more toilet paper, we've run out.","{""item"": ""toilet paper"", ""qty"": 2}",en,validation
+2386,HousekeepingAgent,laundry_request,"I need 3 dresses dry cleaned, when can I get them back?","{""item"": ""dresses"", ""qty"": 3, ""service"": ""dry_clean""}",en,validation
+2389,HousekeepingAgent,room_cleaning_request,"Can someone clean room 490, it still hasn't been serviced.","{""service"": ""room_cleaning"", ""room_no"": ""490""}",en,validation
+2391,HousekeepingAgent,maintenance_complaint,There's an issue in room 162 - the door lock is jammed.,"{""issue"": ""the door lock is jammed"", ""room_no"": ""162""}",en,train
+2393,HousekeepingAgent,amenity_request,Can I get 2 more cushions for room 314?,"{""item"": ""cushions"", ""qty"": 2, ""room_no"": ""314""}",en,train
+2414,HousekeepingAgent,maintenance_complaint,"Can someone fix this, the fridge is not cooling?","{""issue"": ""the fridge is not cooling""}",en,train
+2417,HousekeepingAgent,maintenance_complaint,"The wifi is not connecting in my room, can you send maintenance?","{""issue"": ""the WiFi is not connecting""}",en,train
+2422,HousekeepingAgent,maintenance_complaint,There's an issue in room 154 - the shower has low water pressure.,"{""issue"": ""the shower has low water pressure"", ""room_no"": ""154""}",en,train
+2453,HousekeepingAgent,pest_control_request,"I noticed cockroaches near the window, please take care of it.","{""pest"": ""cockroaches""}",en,train
+2454,HousekeepingAgent,maintenance_complaint,There's an issue in room 458 - the WiFi is not connecting.,"{""issue"": ""the WiFi is not connecting"", ""room_no"": ""458""}",en,train
+2455,HousekeepingAgent,room_change_request,Can you shift me to a non-smoking room?,"{""reason"": ""non_smoking""}",en,train
+2486,HousekeepingAgent,lost_and_found_request,"I left my charger in the room, can you check if it was found?","{""item"": ""charger""}",en,train
+2500,HousekeepingAgent,room_cleaning_request,"Room 283 has not been cleaned since check-in, please arrange it.","{""service"": ""room_cleaning"", ""room_no"": ""283""}",en,train
+2515,HousekeepingAgent,maintenance_complaint,There's an issue in room 272 - there's a leaking tap in the bathroom.,"{""issue"": ""there's a leaking tap in the bathroom"", ""room_no"": ""272""}",en,train
+2543,HousekeepingAgent,lost_and_found_request,Did housekeeping find a book while cleaning my room?,"{""item"": ""book""}",en,test
+2553,FnBAgent,dietary_restriction_request,Can the kitchen prepare something considering my vegan diet?,"{""restriction"": ""vegan diet""}",en,test
+2554,FnBAgent,complaint_food_quality,"The chicken biryani tasted stale, can you replace it?","{""item"": ""chicken biryani"", ""issue"": ""stale""}",en,test
+2555,FnBAgent,special_occasion_request,"We're celebrating our engagement, can you set up something special?","{""occasion"": ""engagement""}",en,train
+2559,FnBAgent,order_cancellation,Please cancel the grilled sandwich order I placed 10 minutes ago.,"{""item"": ""grilled sandwich"", ""time_since_order"": ""10 minutes ago""}",en,train
+2561,FnBAgent,table_reservation_request,Can you reserve a table for 4 for brunch at the restaurant?,"{""guests"": 4, ""meal"": ""brunch""}",en,train
+2570,FnBAgent,menu_inquiry,Do you have any vegan options on the breakfast menu?,"{""meal"": ""breakfast"", ""preference"": ""vegan""}",en,train
+2590,FnBAgent,beverage_order,"I'd like to order a cappuccino, please.","{""item"": ""a cappuccino""}",en,train
+2608,FnBAgent,table_reservation_request,I'd like to book a table for breakfast tonight.,"{""meal"": ""breakfast""}",en,train
+2620,FnBAgent,special_occasion_request,"We're celebrating our birthday, can you set up something special?","{""occasion"": ""birthday""}",en,train
+2622,FnBAgent,dietary_restriction_request,Do you have options suitable for a low-sodium diet requirement?,"{""restriction"": ""low-sodium diet requirement""}",en,validation
+2635,FnBAgent,room_service_order,Please send 2 mutton rogan josh to room 346.,"{""item"": ""mutton rogan josh"", ""qty"": 2, ""room_no"": ""346""}",en,train
+2645,FnBAgent,complaint_food_quality,"The pasta alfredo tasted stale, can you replace it?","{""item"": ""pasta alfredo"", ""issue"": ""stale""}",en,validation
+2647,FnBAgent,room_service_order,Send fish curry and grilled sandwich to my room please.,"{""items"": [""fish curry""]}",en,train
+2648,FnBAgent,order_cancellation,Please cancel the veg fried rice order I placed 15 minutes ago.,"{""item"": ""veg fried rice"", ""time_since_order"": ""15 minutes ago""}",en,train
+2668,FnBAgent,room_service_order,Please send 1 chicken biryani to room 546.,"{""item"": ""chicken biryani"", ""qty"": 1, ""room_no"": ""546""}",en,train
+2680,FnBAgent,table_reservation_request,Is a table available for 2 people around 8 PM?,"{""guests"": 2, ""time"": ""8 PM""}",en,train
+2684,FnBAgent,room_service_order,Send chicken biryani and masala dosa to my room please.,"{""items"": [""chicken biryani""]}",en,train
+2686,FnBAgent,room_service_order,Send butter naan and paneer tikka to my room please.,"{""items"": [""butter naan""]}",en,train
+2696,FnBAgent,dietary_restriction_request,Can the kitchen prepare something considering my jain food preference?,"{""restriction"": ""jain food preference""}",en,train
+2709,FnBAgent,order_status_check,"I ordered food 10 minutes ago, how much longer will it take?","{""time_since_order"": ""10 minutes ago""}",en,train
+2712,FnBAgent,order_status_check,"I ordered food half an hour ago, how much longer will it take?","{""time_since_order"": ""half an hour ago""}",en,train
+2716,FnBAgent,menu_inquiry,Can you send me the room service menu?,{},en,train
+2735,FnBAgent,beverage_order,Please bring a cappuccino to my table.,"{""item"": ""a cappuccino""}",en,train
+2743,FnBAgent,complaint_food_quality,"The grilled sandwich tasted stale, can you replace it?","{""item"": ""grilled sandwich"", ""issue"": ""stale""}",en,train
+2746,FnBAgent,beverage_order,Please bring masala chai to my table.,"{""item"": ""masala chai""}",en,train
+2755,FnBAgent,table_reservation_request,Can you reserve a table for 6 for breakfast at the restaurant?,"{""guests"": 6, ""meal"": ""breakfast""}",en,train
+2757,FnBAgent,menu_inquiry,Do you serve Chinese food?,{},en,train
+2766,FnBAgent,order_cancellation,Can I cancel my room service order?,{},en,train
+2783,FnBAgent,dietary_restriction_request,"I have a jain food preference, can you recommend safe items from the menu?","{""restriction"": ""jain food preference""}",en,train
+2790,FnBAgent,room_service_order,"I'd like to order mutton rogan josh, how long will it take?","{""item"": ""mutton rogan josh""}",en,test
+2802,FnBAgent,room_service_order,Send burger and fries and veg fried rice to my room please.,"{""items"": [""burger and fries""]}",en,train
+2805,FnBAgent,beverage_order,Can you send a cappuccino to room 276?,"{""item"": ""a cappuccino"", ""room_no"": ""276""}",en,train
+2811,FnBAgent,bill_split_request,Could you send separate bills for our table?,{},en,train
+2818,FnBAgent,table_reservation_request,I'd like to book a table for dinner tonight.,"{""meal"": ""dinner""}",en,train
+2847,FnBAgent,order_status_check,My order placed half an hour ago still hasn't arrived.,"{""time_since_order"": ""half an hour ago""}",en,train
+2887,FnBAgent,dietary_restriction_request,"I have a gluten allergy, can you recommend safe items from the menu?","{""restriction"": ""gluten allergy""}",en,train
+2897,FnBAgent,bill_split_request,Please divide the check into 5 parts.,"{""guests"": 5}",en,train
+2904,FnBAgent,menu_inquiry,What's on the lunch menu today?,"{""meal"": ""lunch""}",en,validation
+2910,FnBAgent,room_service_order,"I'd like to order fish curry, how long will it take?","{""item"": ""fish curry""}",en,validation
+2924,FnBAgent,dietary_restriction_request,Can the kitchen prepare something considering my lactose intolerance?,"{""restriction"": ""lactose intolerance""}",en,test
+2925,FnBAgent,dietary_restriction_request,Do you have options suitable for a nut allergy?,"{""restriction"": ""nut allergy""}",en,train
+2939,FnBAgent,order_status_check,My order placed 15 minutes ago still hasn't arrived.,"{""time_since_order"": ""15 minutes ago""}",en,train
+2953,FnBAgent,order_cancellation,Please cancel the butter naan order I placed 5 minutes ago.,"{""item"": ""butter naan"", ""time_since_order"": ""5 minutes ago""}",en,validation
+2956,FnBAgent,order_cancellation,Please cancel the caesar salad order I placed 10 minutes ago.,"{""item"": ""caesar salad"", ""time_since_order"": ""10 minutes ago""}",en,train
+2957,FnBAgent,complaint_food_quality,The dal makhani I ordered was cold when it arrived.,"{""item"": ""dal makhani"", ""issue"": ""cold food""}",en,train
+2987,FnBAgent,menu_inquiry,Do you have any vegan options on the brunch menu?,"{""meal"": ""brunch"", ""preference"": ""vegan""}",en,train
+2989,FnBAgent,complaint_food_quality,The vegetable soup I ordered was cold when it arrived.,"{""item"": ""vegetable soup"", ""issue"": ""cold food""}",en,train
+2998,FnBAgent,order_cancellation,Please cancel the margherita pizza order I placed 5 minutes ago.,"{""item"": ""margherita pizza"", ""time_since_order"": ""5 minutes ago""}",en,train
+3003,FnBAgent,menu_inquiry,Do you serve Continental food?,{},en,train
+3015,FnBAgent,room_service_order,Please send 3 burger and fries to room 518.,"{""item"": ""burger and fries"", ""qty"": 3, ""room_no"": ""518""}",en,train
+3036,FnBAgent,special_occasion_request,"It's my wife's birthday tonight, can you arrange a small cake for the room?","{""occasion"": ""birthday"", ""item"": ""cake""}",en,validation
+3040,FnBAgent,bill_split_request,Can you split the bill equally between 4 people?,"{""guests"": 4}",en,train
+3050,FnBAgent,room_service_order,Please send 1 butter naan to room 410.,"{""item"": ""butter naan"", ""qty"": 1, ""room_no"": ""410""}",en,train
+3051,FnBAgent,beverage_order,Please bring green tea to my table.,"{""item"": ""green tea""}",en,train
+3059,FnBAgent,special_occasion_request,"It's my wife's anniversary tonight, can you arrange a small cake for the room?","{""occasion"": ""anniversary"", ""item"": ""cake""}",en,train
+3068,FnBAgent,room_service_order,Please send 3 pasta alfredo to room 194.,"{""item"": ""pasta alfredo"", ""qty"": 3, ""room_no"": ""194""}",en,train
+3073,FnBAgent,room_service_order,Send pasta alfredo and margherita pizza to my room please.,"{""items"": [""pasta alfredo""]}",en,train
+3082,FnBAgent,room_service_order,Can I order fish curry for room service?,"{""item"": ""fish curry""}",en,train
+3095,FnBAgent,room_service_order,Please send 2 paneer tikka to room 339.,"{""item"": ""paneer tikka"", ""qty"": 2, ""room_no"": ""339""}",en,train
+3113,FnBAgent,room_service_order,Please send 3 burger and fries to room 371.,"{""item"": ""burger and fries"", ""qty"": 3, ""room_no"": ""371""}",en,train
+3130,FnBAgent,order_cancellation,Please cancel the chicken biryani order I placed 5 minutes ago.,"{""item"": ""chicken biryani"", ""time_since_order"": ""5 minutes ago""}",en,test
+3158,FnBAgent,order_status_check,Can you check the status of my room service order?,{},en,train
+3189,FnBAgent,complaint_food_quality,"The veg fried rice tasted stale, can you replace it?","{""item"": ""veg fried rice"", ""issue"": ""stale""}",en,train
+3196,FnBAgent,order_cancellation,"I want to cancel my mutton rogan josh order, is that possible?","{""item"": ""mutton rogan josh""}",en,train
+3211,FnBAgent,menu_inquiry,Do you serve South Indian food?,{},en,train
+3212,FnBAgent,table_reservation_request,Is a table available for 3 people around 8 PM?,"{""guests"": 3, ""time"": ""8 PM""}",en,train
+3217,FnBAgent,menu_inquiry,Do you serve Italian food?,{},en,train
+3223,FnBAgent,order_cancellation,"I want to cancel my masala dosa order, is that possible?","{""item"": ""masala dosa""}",en,train
+3241,FnBAgent,room_service_order,Please send 3 vegetable soup to room 274.,"{""item"": ""vegetable soup"", ""qty"": 3, ""room_no"": ""274""}",en,train
+3247,FnBAgent,special_occasion_request,Can you arrange a surprise dessert for our graduation?,"{""occasion"": ""graduation""}",en,train
+3271,FnBAgent,menu_inquiry,What's on the brunch menu today?,"{""meal"": ""brunch""}",en,train
+3281,FnBAgent,complaint_food_quality,"The masala dosa tasted stale, can you replace it?","{""item"": ""masala dosa"", ""issue"": ""stale""}",en,test
+3296,FnBAgent,room_service_order,Please send 3 margherita pizza to room 423.,"{""item"": ""margherita pizza"", ""qty"": 3, ""room_no"": ""423""}",en,train
+3299,FnBAgent,room_service_order,Send grilled sandwich and paneer tikka to my room please.,"{""items"": [""grilled sandwich""]}",en,test
+3306,FnBAgent,bill_split_request,Can you split the bill equally between 2 people?,"{""guests"": 2}",en,train
+3307,FnBAgent,special_occasion_request,Can you arrange a surprise dessert for our engagement?,"{""occasion"": ""engagement""}",en,train
+3320,FnBAgent,order_cancellation,Please cancel the vegetable soup order I placed 10 minutes ago.,"{""item"": ""vegetable soup"", ""time_since_order"": ""10 minutes ago""}",en,train
+3322,FnBAgent,room_service_order,Please send 2 dal makhani to room 252.,"{""item"": ""dal makhani"", ""qty"": 2, ""room_no"": ""252""}",en,validation
+3323,FnBAgent,menu_inquiry,Do you have any vegan options on the lunch menu?,"{""meal"": ""lunch"", ""preference"": ""vegan""}",en,train
+3349,FnBAgent,dietary_restriction_request,Do you have options suitable for a lactose intolerance?,"{""restriction"": ""lactose intolerance""}",en,train
+3374,FnBAgent,bill_split_request,Please divide the check into 4 parts.,"{""guests"": 4}",en,train
+3406,ConciergeAgent,room_request,Please send two extra towels to my room.,"{""item"":""towels"",""quantity"":2}",en,train
+3409,ConciergeAgent,local_recommendation_request,Can you recommend a good Italian restaurant nearby?,"{""category"":""Italian restaurant""}",en,train
+3411,ConciergeAgent,hotel_information_query,What time is check-in?,"{""topic"":""check_in_time""}",en,test
+3412,ConciergeAgent,facility_information_query,Does the hotel have a swimming pool?,"{""facility"":""swimming pool""}",en,train
+3413,ConciergeAgent,billing_query,Can you send me my hotel invoice?,"{""document"":""invoice""}",en,train
+3414,ConciergeAgent,complaint_submission,The air conditioner in my room is not working.,"{""issue"":""air conditioner""}",en,train
+3415,ConciergeAgent,general_assistance,I need to speak with the front desk.,"{""department"":""front desk""}",en,train
+3422,ConciergeAgent,room_request,Please provide a baby crib in our room.,"{""item"":""baby crib"",""quantity"":1}",en,train
+3428,ConciergeAgent,local_recommendation_request,Suggest some family-friendly attractions around the hotel.,"{""category"":""family attractions""}",en,train
+3433,ConciergeAgent,facility_information_query,Is the swimming pool open in the evening?,"{""facility"":""swimming pool"",""time"":""evening""}",en,train
+3439,ConciergeAgent,billing_query,Could you explain the minibar charges?,"{""charge_type"":""minibar""}",en,train
+3444,ConciergeAgent,complaint_submission,The shower isn't producing hot water.,"{""issue"":""hot water""}",en,train
+3451,ConciergeAgent,booking_inquiry,I'd like to reserve a room for next weekend.,"{""date_range"":""next weekend""}",en,test
+3458,ConciergeAgent,room_request,Please refill the minibar.,"{""service"":""minibar refill""}",en,train
+3460,ConciergeAgent,room_request,Can someone fix the room temperature?,"{""issue"":""room temperature""}",en,train
+3463,ConciergeAgent,hotel_information_query,Do you offer airport pickup?,"{""service"":""airport pickup""}",en,train
+3469,ConciergeAgent,facility_information_query,Does the hotel have an EV charging station?,"{""facility"":""EV charging""}",en,train
+3475,ConciergeAgent,guest_feedback,Everything about my stay has been wonderful.,"{""sentiment"":""positive""}",en,train
+3491,ConciergeAgent,local_recommendation_request,Can you recommend a nearby museum?,"{""category"":""museum""}",en,train
+3493,ConciergeAgent,local_recommendation_request,Suggest a nearby park for an evening walk.,"{""category"":""park""}",en,train
+3499,ConciergeAgent,hotel_information_query,Do you provide free airport shuttle service?,"{""service"":""airport shuttle""}",en,train
+3501,ConciergeAgent,facility_information_query,Does the hotel have a rooftop restaurant?,"{""facility"":""rooftop restaurant""}",en,train
+3507,ConciergeAgent,billing_query,I'd like an itemized invoice.,"{""document"":""itemized invoice""}",en,validation
+3509,ConciergeAgent,billing_query,Can I pay the remaining balance in cash?,"{""payment_method"":""cash""}",en,train
+3513,ConciergeAgent,complaint_submission,There's a water leak in the bathroom.,"{""issue"":""water leak""}",en,train
+3515,ConciergeAgent,complaint_submission,The bed sheets are stained.,"{""issue"":""dirty bed sheets""}",en,train
+3517,ConciergeAgent,general_assistance,I need assistance with checking out.,"{""service"":""check-out assistance""}",en,train
+3523,ConciergeAgent,room_request,Please arrange an extra bed in my room.,"{""item"":""extra bed""}",en,train
+3525,ConciergeAgent,hotel_information_query,Do you provide currency exchange services?,"{""service"":""currency exchange""}",en,train
+3531,ConciergeAgent,booking_inquiry,Can I reserve a room for two adults and one child?,"{""adults"":2,""children"":1}",en,train
+3535,ConciergeAgent,booking_inquiry,I want to reserve a room with a king-size bed.,"{""bed_type"":""king""}",en,train
+3538,ConciergeAgent,room_request,Please refill the complimentary water bottles.,"{""item"":""water bottles""}",en,train
+3546,ConciergeAgent,facility_information_query,Does the hotel have a spa and wellness center?,"{""facility"":""spa""}",en,train
+3550,ConciergeAgent,facility_information_query,Do you offer free airport parking?,"{""facility"":""airport parking""}",en,train
+3553,ConciergeAgent,local_recommendation_request,Suggest a nearby vegetarian café.,"{""category"":""vegetarian cafe""}",en,train
+3559,ConciergeAgent,billing_query,Can I pay using my debit card?,"{""payment_method"":""debit card""}",en,train
+3565,ConciergeAgent,complaint_submission,The elevator isn't working.,"{""issue"":""elevator malfunction""}",en,train
+3570,ConciergeAgent,general_assistance,Can someone assist me with my baggage?,"{""service"":""baggage assistance""}",en,train
+3572,ConciergeAgent,guest_feedback,I loved the cleanliness of the room.,"{""sentiment"":""positive""}",en,train
+3579,ConciergeAgent,hotel_information_query,Do you offer express checkout?,"{""topic"":""express checkout""}",en,validation
+3586,ConciergeAgent,room_request,Please send an extra toothbrush to my room.,"{""item"":""toothbrush"",""quantity"":1}",en,train
+3594,ConciergeAgent,hotel_information_query,What are the restaurant operating hours?,"{""topic"":""restaurant hours""}",en,train
+3601,ConciergeAgent,local_recommendation_request,Can you recommend a nearby fine dining restaurant?,"{""category"":""fine dining""}",en,train
+3614,ConciergeAgent,complaint_submission,The room telephone isn't working.,"{""issue"":""telephone malfunction""}",en,test
+3619,ConciergeAgent,general_assistance,Can someone help me carry my luggage to the car?,"{""service"":""luggage assistance""}",en,validation
+3624,ConciergeAgent,guest_feedback,Thank you for the wonderful service.,"{""sentiment"":""positive""}",en,validation
+3625,ConciergeAgent,guest_feedback,I'll definitely stay here again.,"{""sentiment"":""positive""}",en,train
+3632,ConciergeAgent,booking_inquiry,Can I book a room with a mountain view?,"{""room_preference"":""mountain view""}",en,train
+3644,ConciergeAgent,hotel_information_query,What is the breakfast timing on weekends?,"{""topic"":""weekend breakfast timing""}",en,train
+3659,ConciergeAgent,billing_query,Was the breakfast charge included in my booking?,"{""charge_type"":""breakfast""}",en,train
+3676,ConciergeAgent,booking_inquiry,Can I reserve a room with a private balcony?,"{""room_preference"":""private balcony""}",en,train
+3678,ConciergeAgent,hotel_information_query,Do you offer express laundry service?,"{""service"":""express laundry""}",en,train
+3681,ConciergeAgent,booking_inquiry,I'd like to reserve a room for next Wednesday.,"{""check_in_date"":""next Wednesday""}",en,train
+3685,ConciergeAgent,booking_inquiry,Can I book a room with breakfast and dinner included?,"{""meal_plan"":""breakfast+dinner""}",en,test
+3691,ConciergeAgent,hotel_information_query,What time does the spa open?,"{""topic"":""spa timings""}",en,train
+3693,ConciergeAgent,hotel_information_query,Can I check in before noon?,"{""topic"":""early check-in""}",en,train
+3710,ConciergeAgent,billing_query,Please explain the service tax on my bill.,"{""charge_type"":""service tax""}",en,test
+3715,ConciergeAgent,complaint_submission,There is a strange noise from the air conditioner.,"{""issue"":""air conditioner noise""}",en,train
+3751,ConciergeAgent,local_recommendation_request,Can you recommend a nearby seafood restaurant?,"{""category"":""seafood restaurant""}",en,train
+3784,ConciergeAgent,booking_inquiry,I'd like to reserve a room from July 15 to July 18.,"{""check_in_date"":""July 15"",""check_out_date"":""July 18""}",en,train
+3789,ConciergeAgent,room_request,I'd like housekeeping to return after lunch.,"{""service"":""housekeeping"",""time"":""after lunch""}",en,test
+3802,ConciergeAgent,local_recommendation_request,Where can I find a nearby shopping street?,"{""category"":""shopping street""}",en,train
+3823,ConciergeAgent,guest_feedback,The check-in process was quick and efficient.,"{""sentiment"":""positive""}",en,train
+3841,ConciergeAgent,hotel_information_query,What time is dinner served?,"{""topic"":""dinner timing""}",en,train
+3848,ConciergeAgent,facility_information_query,Do you have a wellness spa?,"{""facility"":""wellness spa""}",en,train
+3863,ConciergeAgent,complaint_submission,The room wasn't cleaned today.,"{""issue"":""housekeeping""}",en,train
+3871,ConciergeAgent,guest_feedback,The hotel staff were incredibly friendly.,"{""sentiment"":""positive""}",en,test
+3884,ConciergeAgent,booking_inquiry,I'd like to reserve a room for three adults.,"{""adults"":3}",en,train
+3889,ConciergeAgent,room_request,Can I have fresh towels delivered?,"{""item"":""fresh towels""}",en,validation
+3897,ConciergeAgent,facility_information_query,Is there a heated swimming pool?,"{""facility"":""heated swimming pool""}",en,test
+3900,ConciergeAgent,facility_information_query,Do you offer bicycle rentals?,"{""facility"":""bicycle rental""}",en,train
+3901,ConciergeAgent,local_recommendation_request,Can you recommend a nearby family restaurant?,"{""category"":""family restaurant""}",en,test
+3906,ConciergeAgent,billing_query,Can I get my invoice emailed to me?,"{""document"":""invoice"",""delivery_method"":""email""}",en,train
+3910,ConciergeAgent,billing_query,Can I pay my bill before checkout?,"{""request"":""advance payment""}",en,train
+3911,ConciergeAgent,complaint_submission,The room air conditioner isn't cooling properly.,"{""issue"":""air conditioner""}",en,validation
+3918,ConciergeAgent,general_assistance,Please connect me with the reception desk.,"{""department"":""reception""}",en,test
+3927,ConciergeAgent,room_request,Please send a phone charger to my room.,"{""item"":""phone charger""}",en,train
+3933,ConciergeAgent,booking_inquiry,Do you have any family suites available this weekend?,"{""room_type"":""Family Suite"",""date_range"":""weekend""}",en,train
+3936,ConciergeAgent,room_request,Please send two extra blankets to my room.,"{""item"":""blankets"",""quantity"":2}",en,train
+3947,ConciergeAgent,facility_information_query,Is there a beauty salon in the hotel?,"{""facility"":""beauty salon""}",en,train
+3950,ConciergeAgent,facility_information_query,Do you provide wheelchair-accessible rooms?,"{""facility"":""accessible rooms""}",en,train
+3952,ConciergeAgent,local_recommendation_request,Where is the nearest metro station?,"{""category"":""metro station""}",en,validation
+3962,ConciergeAgent,complaint_submission,The shower water isn't getting hot.,"{""issue"":""hot water""}",en,train
+3973,ConciergeAgent,guest_feedback,The room was spotless every day.,"{""sentiment"":""positive""}",en,train
+3988,ConciergeAgent,room_request,I'd like fresh towels delivered this evening.,"{""item"":""towels"",""time"":""evening""}",en,train
+3994,ConciergeAgent,hotel_information_query,What are the spa operating hours?,"{""topic"":""spa hours""}",en,train
+3999,ConciergeAgent,facility_information_query,Is there a sauna for hotel guests?,"{""facility"":""sauna""}",en,validation
+4001,ConciergeAgent,local_recommendation_request,Can you recommend a nearby Italian restaurant?,"{""category"":""Italian restaurant""}",en,train
+4004,ConciergeAgent,local_recommendation_request,Can you recommend a local café with good coffee?,"{""category"":""cafe""}",en,train
+4008,ConciergeAgent,billing_query,Can I pay using a corporate credit card?,"{""payment_method"":""corporate credit card""}",en,train
+4016,ConciergeAgent,general_assistance,Can someone help me book a taxi to the airport?,"{""service"":""airport taxi""}",en,train
+4021,ConciergeAgent,guest_feedback,The concierge team made our stay memorable.,"{""sentiment"":""positive""}",en,train
+4032,ConciergeAgent,booking_inquiry,Can I book a room for six nights?,"{""nights"":6}",en,train
+4068,ConciergeAgent,general_assistance,Please connect me with housekeeping.,"{""department"":""housekeeping""}",en,train
+4069,ConciergeAgent,general_assistance,Can someone help me move my luggage to another room?,"{""service"":""luggage transfer""}",en,train
+4072,ConciergeAgent,guest_feedback,The hotel exceeded our expectations.,"{""sentiment"":""positive""}",en,train
+4077,ConciergeAgent,room_request,Please send a desk lamp to my room.,"{""item"":""desk lamp""}",en,validation
+4082,ConciergeAgent,booking_inquiry,Can I book a room for three nights starting Friday?,"{""nights"":3,""check_in_date"":""Friday""}",en,train
+4098,ConciergeAgent,general_assistance,Please connect me with the duty manager.,"{""department"":""duty manager""}",en,train
+4102,RevenuePricingAgent,pricing_recommendation,What pricing would maximize revenue for Q3?,"{""period"": ""Q3""}",en,train
+4107,RevenuePricingAgent,revenue_summary_request,Summarize our earnings for the upcoming holiday season.,"{""period"": ""the upcoming holiday season""}",en,train
+4117,RevenuePricingAgent,occupancy_inquiry,What is our occupancy rate currently?,"{""period"": ""currently""}",en,train
+4155,RevenuePricingAgent,demand_analysis_request,What does demand look like for next quarter?,"{""period"": ""next quarter""}",en,validation
+4160,RevenuePricingAgent,room_rate_inquiry,Can you pull up the rate card for Premium Suites?,"{""room_type"": ""Premium Suites""}",en,train
+4200,RevenuePricingAgent,pricing_recommendation,What pricing would maximize revenue for this week?,"{""period"": ""this week""}",en,train
+4204,RevenuePricingAgent,demand_analysis_request,Analyze booking demand for next month.,"{""period"": ""next month""}",en,train
+4209,RevenuePricingAgent,rate_adjustment_request,Adjust the rate for Family Rooms based on current demand.,"{""room_type"": ""Family Rooms""}",en,train
+4214,RevenuePricingAgent,occupancy_inquiry,How many rooms are available currently?,"{""period"": ""currently""}",en,train
+4219,RevenuePricingAgent,pricing_comparison,Compare our Club Rooms rates with nearby competitors.,"{""room_type"": ""Club Rooms""}",en,train
+4224,RevenuePricingAgent,demand_analysis_request,Analyze booking demand for the upcoming holiday season.,"{""period"": ""the upcoming holiday season""}",en,train
+4229,RevenuePricingAgent,revenue_summary_request,Give me a revenue summary for the festive season.,"{""period"": ""the festive season""}",en,train
+4234,RevenuePricingAgent,room_rate_inquiry,Show today's price for Standard Rooms.,"{""room_type"": ""Standard Rooms""}",en,train
+4239,RevenuePricingAgent,room_rate_inquiry,What are we charging for Premium Suites this weekend?,"{""room_type"": ""Premium Suites""}",en,train
+4244,RevenuePricingAgent,rate_adjustment_request,Can we lower prices for Deluxe Rooms this week?,"{""room_type"": ""Deluxe Rooms""}",en,train
+4249,RevenuePricingAgent,demand_analysis_request,What does demand look like for Q3?,"{""period"": ""Q3""}",en,train
+4253,RevenuePricingAgent,occupancy_inquiry,Can you tell me the current occupancy status for this week?,"{""period"": ""this week""}",en,validation
+4258,RevenuePricingAgent,revenue_forecast,Estimate expected revenue from long-stay guests.,"{""period"": ""this week"", ""segment"": ""long-stay guests""}",en,train
+4263,RevenuePricingAgent,pricing_recommendation,What pricing would maximize revenue for next month?,"{""period"": ""next month""}",en,train
+4265,RevenuePricingAgent,pricing_recommendation,Recommend pricing for next month.,"{""period"": ""next month""}",en,validation
+4268,RevenuePricingAgent,occupancy_forecast,Forecast room occupancy for next month.,"{""period"": ""next month""}",en,train
+4270,RevenuePricingAgent,occupancy_inquiry,Can you tell me the current occupancy status for this weekend?,"{""period"": ""this weekend""}",en,test
+4273,RevenuePricingAgent,occupancy_forecast,Predict occupancy for next month.,"{""period"": ""next month""}",en,train
+4275,RevenuePricingAgent,pricing_recommendation,Recommend pricing for the upcoming holiday season.,"{""period"": ""the upcoming holiday season""}",en,train
+4278,RevenuePricingAgent,revenue_summary_request,Give me a revenue summary for Q3.,"{""period"": ""Q3""}",en,train
+4280,RevenuePricingAgent,occupancy_inquiry,What percentage of rooms are booked today?,"{""period"": ""today""}",en,test
+4283,RevenuePricingAgent,rate_adjustment_request,Can we lower prices for Premium Suites this week?,"{""room_type"": ""Premium Suites""}",en,train
+4285,RevenuePricingAgent,revenue_summary_request,Give me a revenue summary for the upcoming holiday season.,"{""period"": ""the upcoming holiday season""}",en,train
+4288,RevenuePricingAgent,pricing_recommendation,What price should we set for this week?,"{""period"": ""this week""}",en,train
+4290,RevenuePricingAgent,revenue_summary_request,Give me a revenue summary for next quarter.,"{""period"": ""next quarter""}",en,train
+4293,RevenuePricingAgent,occupancy_inquiry,What percentage of rooms are booked currently?,"{""period"": ""currently""}",en,train
+4295,RevenuePricingAgent,pricing_recommendation,Suggest optimal rates for the festive season.,"{""period"": ""the festive season""}",en,train
+4298,RevenuePricingAgent,room_rate_inquiry,What is the current rate for Premium Suites?,"{""room_type"": ""Premium Suites""}",en,train
+4361,RevenuePricingAgent,pricing_comparison,Compare our Family Rooms rates with nearby competitors.,"{""room_type"": ""Family Rooms""}",en,train
+4362,RevenuePricingAgent,pricing_recommendation,What price should we set for next quarter?,"{""period"": ""next quarter""}",en,train
+4366,RevenuePricingAgent,pricing_comparison,How do our Standard Rooms prices compare to last month?,"{""room_type"": ""Standard Rooms""}",en,train
+4367,RevenuePricingAgent,revenue_forecast,Forecast total revenue for Q3.,"{""period"": ""Q3"", ""segment"": ""corporate bookings""}",en,test
+4371,RevenuePricingAgent,pricing_recommendation,What price should we set for Q3?,"{""period"": ""Q3""}",en,train
+4372,RevenuePricingAgent,room_rate_inquiry,What are we charging for Standard Rooms this weekend?,"{""room_type"": ""Standard Rooms""}",en,train
+4376,RevenuePricingAgent,revenue_forecast,Estimate expected revenue from group bookings.,"{""period"": ""this week"", ""segment"": ""group bookings""}",en,validation
+4377,RevenuePricingAgent,pricing_recommendation,What pricing would maximize revenue for the upcoming holiday season?,"{""period"": ""the upcoming holiday season""}",en,validation
+4381,RevenuePricingAgent,pricing_recommendation,What price should we set for the festive season?,"{""period"": ""the festive season""}",en,test
+4382,RevenuePricingAgent,occupancy_forecast,Forecast room occupancy for the upcoming holiday season.,"{""period"": ""the upcoming holiday season""}",en,train
+4386,RevenuePricingAgent,pricing_recommendation,Recommend pricing for this week.,"{""period"": ""this week""}",en,train
+4387,RevenuePricingAgent,revenue_forecast,Estimate expected revenue from weekend travelers.,"{""period"": ""this week"", ""segment"": ""weekend travelers""}",en,train
+4391,RevenuePricingAgent,demand_analysis_request,Analyze booking demand for Q3.,"{""period"": ""Q3""}",en,train
+4392,RevenuePricingAgent,occupancy_forecast,What occupancy do we expect for this week?,"{""period"": ""this week""}",en,train
+4401,RevenuePricingAgent,revenue_forecast,Predict revenue from weekend travelers for this week.,"{""period"": ""this week"", ""segment"": ""weekend travelers""}",en,train
+4402,RevenuePricingAgent,occupancy_forecast,Forecast room occupancy for the festive season.,"{""period"": ""the festive season""}",en,train
+4406,RevenuePricingAgent,revenue_forecast,Predict revenue from walk-in guests for the upcoming holiday season.,"{""period"": ""the upcoming holiday season"", ""segment"": ""walk-in guests""}",en,train
+4407,RevenuePricingAgent,occupancy_forecast,Predict occupancy for next quarter.,"{""period"": ""next quarter""}",en,train
+4411,RevenuePricingAgent,rate_adjustment_request,Adjust the rate for Executive Suites based on current demand.,"{""room_type"": ""Executive Suites""}",en,train
+4413,RevenuePricingAgent,room_rate_inquiry,Can you pull up the rate card for Standard Rooms?,"{""room_type"": ""Standard Rooms""}",en,train
+4416,RevenuePricingAgent,demand_analysis_request,Break down guest demand trends for Q3.,"{""period"": ""Q3""}",en,validation
+4418,RevenuePricingAgent,room_rate_inquiry,Show today's price for Premium Suites.,"{""room_type"": ""Premium Suites""}",en,test
+4421,RevenuePricingAgent,room_rate_inquiry,Can you pull up the rate card for Family Rooms?,"{""room_type"": ""Family Rooms""}",en,train
+4423,RevenuePricingAgent,revenue_summary_request,Show total revenue generated during next quarter.,"{""period"": ""next quarter""}",en,train
+4426,RevenuePricingAgent,rate_adjustment_request,Can we lower prices for Executive Suites this week?,"{""room_type"": ""Executive Suites""}",en,train
+4428,RevenuePricingAgent,occupancy_forecast,Predict occupancy for the upcoming holiday season.,"{""period"": ""the upcoming holiday season""}",en,validation
+4431,RevenuePricingAgent,room_rate_inquiry,What are we charging for Club Rooms this weekend?,"{""room_type"": ""Club Rooms""}",en,train
+4433,RevenuePricingAgent,occupancy_inquiry,What is our occupancy rate this month?,"{""period"": ""this month""}",en,train
+4436,RevenuePricingAgent,pricing_comparison,Compare our Premium Suites rates with nearby competitors.,"{""room_type"": ""Premium Suites""}",en,validation
+4438,RevenuePricingAgent,revenue_summary_request,Summarize our earnings for next quarter.,"{""period"": ""next quarter""}",en,train
+4441,RevenuePricingAgent,occupancy_inquiry,What percentage of rooms are booked right now?,"{""period"": ""right now""}",en,train
+4443,RevenuePricingAgent,room_rate_inquiry,What is the current rate for Standard Rooms?,"{""room_type"": ""Standard Rooms""}",en,train
+4446,RevenuePricingAgent,demand_analysis_request,What does demand look like for next month?,"{""period"": ""next month""}",en,train
+4447,RevenuePricingAgent,room_rate_inquiry,What is the current rate for Club Rooms?,"{""room_type"": ""Club Rooms""}",en,train
+4465,RevenuePricingAgent,room_rate_inquiry,What is the current rate for Deluxe Rooms?,"{""room_type"": ""Deluxe Rooms""}",en,train
+4470,RevenuePricingAgent,pricing_recommendation,Suggest optimal rates for the upcoming holiday season.,"{""period"": ""the upcoming holiday season""}",en,test
+4475,RevenuePricingAgent,pricing_recommendation,Recommend pricing for the festive season.,"{""period"": ""the festive season""}",en,train
+4480,RevenuePricingAgent,occupancy_inquiry,Can you tell me the current occupancy status for today?,"{""period"": ""today""}",en,train
+4485,RevenuePricingAgent,room_rate_inquiry,Show today's price for Club Rooms.,"{""room_type"": ""Club Rooms""}",en,test
+4490,RevenuePricingAgent,pricing_recommendation,What price should we set for next month?,"{""period"": ""next month""}",en,train
+4495,RevenuePricingAgent,occupancy_forecast,What occupancy do we expect for the upcoming holiday season?,"{""period"": ""the upcoming holiday season""}",en,train
+4501,RevenuePricingAgent,occupancy_forecast,Predict occupancy for this week.,"{""period"": ""this week""}",en,train
+4505,RevenuePricingAgent,room_rate_inquiry,What is the current rate for Family Rooms?,"{""room_type"": ""Family Rooms""}",en,train
+4506,RevenuePricingAgent,room_rate_inquiry,Can you pull up the rate card for Executive Suites?,"{""room_type"": ""Executive Suites""}",en,train
+4510,RevenuePricingAgent,revenue_forecast,Estimate expected revenue from corporate bookings.,"{""period"": ""the upcoming holiday season"", ""segment"": ""corporate bookings""}",en,train
+4546,RevenuePricingAgent,occupancy_inquiry,What percentage of rooms are booked this week?,"{""period"": ""this week""}",en,train
+4550,RevenuePricingAgent,occupancy_inquiry,How many rooms are occupied today?,"{""period"": ""today""}",en,train
+4552,RevenuePricingAgent,revenue_forecast,Forecast total revenue for next quarter.,"{""period"": ""next quarter"", ""segment"": ""walk-in guests""}",en,train
+4554,RevenuePricingAgent,pricing_comparison,How do our Executive Suites prices compare to last month?,"{""room_type"": ""Executive Suites""}",en,test
+4557,RevenuePricingAgent,room_rate_inquiry,Show today's price for Family Rooms.,"{""room_type"": ""Family Rooms""}",en,train
+4559,RevenuePricingAgent,revenue_forecast,Forecast total revenue for this week.,"{""period"": ""this week"", ""segment"": ""group bookings""}",en,train
+4561,RevenuePricingAgent,rate_adjustment_request,Adjust the rate for Club Rooms based on current demand.,"{""room_type"": ""Club Rooms""}",en,test
+4564,RevenuePricingAgent,room_rate_inquiry,Can you pull up the rate card for Deluxe Rooms?,"{""room_type"": ""Deluxe Rooms""}",en,test
+4566,RevenuePricingAgent,room_rate_inquiry,Show today's price for Executive Suites.,"{""room_type"": ""Executive Suites""}",en,train
+4569,RevenuePricingAgent,occupancy_inquiry,What is our occupancy rate right now?,"{""period"": ""right now""}",en,train
+4571,RevenuePricingAgent,occupancy_forecast,What occupancy do we expect for Q3?,"{""period"": ""Q3""}",en,train
+4574,RevenuePricingAgent,pricing_comparison,Show how our pricing compares to competitor hotels this week.,"{""room_type"": ""Deluxe Rooms""}",en,train
+4576,RevenuePricingAgent,occupancy_inquiry,What is our occupancy rate this week?,"{""period"": ""this week""}",en,train
+4579,RevenuePricingAgent,pricing_comparison,How do our Family Rooms prices compare to last month?,"{""room_type"": ""Family Rooms""}",en,train
+4581,RevenuePricingAgent,revenue_summary_request,Show total revenue generated during this week.,"{""period"": ""this week""}",en,train
+4584,RevenuePricingAgent,revenue_summary_request,Summarize our earnings for this week.,"{""period"": ""this week""}",en,train
+4586,RevenuePricingAgent,pricing_comparison,Compare our Deluxe Rooms rates with nearby competitors.,"{""room_type"": ""Deluxe Rooms""}",en,train
+4589,RevenuePricingAgent,occupancy_forecast,What occupancy do we expect for the festive season?,"{""period"": ""the festive season""}",en,train
+4591,RevenuePricingAgent,occupancy_forecast,What occupancy do we expect for next month?,"{""period"": ""next month""}",en,validation
+4594,RevenuePricingAgent,pricing_recommendation,Suggest optimal rates for this week.,"{""period"": ""this week""}",en,train
+4597,RevenuePricingAgent,occupancy_inquiry,How many rooms are available right now?,"{""period"": ""right now""}",en,train
+4599,RevenuePricingAgent,revenue_summary_request,Show total revenue generated during Q3.,"{""period"": ""Q3""}",en,validation
+4704,ReportingAnalyticsAgent,occupancy_report_request,Display occupancy trends for the last six months.,"{""period"":""last 6 months""}",en,validation
+4709,ReportingAnalyticsAgent,revenue_report_request,Display annual hotel revenue.,"{""period"":""annual""}",en,test
+4714,ReportingAnalyticsAgent,booking_report_request,Display bookings made through OTA channels.,"{""channel"":""OTA""}",en,train
+4719,ReportingAnalyticsAgent,dashboard_request,Open the executive KPI dashboard.,"{""dashboard"":""executive KPI""}",en,train
+4724,ReportingAnalyticsAgent,daily_summary_request,Show today's cancellation summary.,"{""date"":""today""}",en,train
+4729,ReportingAnalyticsAgent,weekly_summary_request,Show weekly KPI highlights.,"{""period"":""weekly""}",en,train
+4734,ReportingAnalyticsAgent,monthly_summary_request,Summarize monthly booking performance.,"{""period"":""monthly""}",en,validation
+4739,ReportingAnalyticsAgent,kpi_request,Show the hotel's average daily rate.,"{""kpi"":""ADR""}",en,train
+4744,ReportingAnalyticsAgent,analytics_query,Analyze booking behavior by market segment.,"{""dimension"":""market_segment""}",en,train
+4749,ReportingAnalyticsAgent,performance_summary_request,Provide an overview of this year's business performance.,"{""period"":""this year""}",en,train
+4753,ReportingAnalyticsAgent,occupancy_report_request,Provide the occupancy report for Deluxe Rooms.,"{""room_type"":""Deluxe""}",en,train
+4755,ReportingAnalyticsAgent,occupancy_report_request,Export occupancy statistics for Q2.,"{""period"":""Q2""}",en,train
+4758,ReportingAnalyticsAgent,revenue_report_request,Display revenue generated by Premium Suites.,"{""room_type"":""Premium Suite""}",en,train
+4760,ReportingAnalyticsAgent,revenue_report_request,Provide revenue by payment method.,"{""dimension"":""payment_method""}",en,train
+4763,ReportingAnalyticsAgent,booking_report_request,Display group booking statistics.,"{""booking_type"":""group""}",en,train
+4765,ReportingAnalyticsAgent,booking_report_request,Provide bookings by nationality.,"{""dimension"":""nationality""}",en,test
+4768,ReportingAnalyticsAgent,dashboard_request,Display the financial performance dashboard.,"{""dashboard"":""financial performance""}",en,validation
+4770,ReportingAnalyticsAgent,dashboard_request,Show the executive overview dashboard.,"{""dashboard"":""executive overview""}",en,train
+4773,ReportingAnalyticsAgent,daily_summary_request,Show today's booking overview.,"{""date"":""today""}",en,train
+4775,ReportingAnalyticsAgent,daily_summary_request,Prepare today's operational highlights.,"{""date"":""today""}",en,train
+4778,ReportingAnalyticsAgent,weekly_summary_request,Show this week's booking performance.,"{""period"":""this week""}",en,train
+4780,ReportingAnalyticsAgent,weekly_summary_request,Prepare the weekly executive overview.,"{""period"":""weekly""}",en,train
+4783,ReportingAnalyticsAgent,monthly_summary_request,Show monthly guest activity.,"{""period"":""monthly""}",en,train
+4785,ReportingAnalyticsAgent,monthly_summary_request,Prepare the monthly management overview.,"{""period"":""monthly""}",en,train
+4788,ReportingAnalyticsAgent,kpi_request,Show the average booking value.,"{""kpi"":""average_booking_value""}",en,train
+4790,ReportingAnalyticsAgent,kpi_request,Show the average room rate.,"{""kpi"":""ADR""}",en,train
+4793,ReportingAnalyticsAgent,analytics_query,Identify the strongest booking channel.,"{""metric"":""booking_channel_performance""}",en,train
+4795,ReportingAnalyticsAgent,analytics_query,Explain why revenue increased this quarter.,"{""metric"":""revenue"",""period"":""this quarter""}",en,train
+4798,ReportingAnalyticsAgent,performance_summary_request,Summarize business performance across all departments.,"{""scope"":""all departments""}",en,train
+4800,ReportingAnalyticsAgent,performance_summary_request,Prepare a complete organizational performance summary.,{},en,validation
+4851,ReportingAnalyticsAgent,occupancy_report_request,Generate the occupancy report for the current financial year.,"{""period"":""current financial year""}",en,train
+4852,ReportingAnalyticsAgent,occupancy_report_request,Show occupancy by reservation source.,"{""dimension"":""reservation_source""}",en,train
+4856,ReportingAnalyticsAgent,revenue_report_request,Generate the annual room revenue report.,"{""metric"":""room_revenue"",""period"":""annual""}",en,train
+4857,ReportingAnalyticsAgent,revenue_report_request,Show revenue by reservation source.,"{""dimension"":""reservation_source""}",en,train
+4861,ReportingAnalyticsAgent,booking_report_request,Generate a booking report for premium guests.,"{""segment"":""premium_guests""}",en,train
+4862,ReportingAnalyticsAgent,booking_report_request,Show reservation statistics by market segment.,"{""dimension"":""market_segment""}",en,train
+4866,ReportingAnalyticsAgent,dashboard_request,Open the executive reporting dashboard.,"{""dashboard"":""executive reporting""}",en,test
+4867,ReportingAnalyticsAgent,dashboard_request,Display the occupancy analytics dashboard.,"{""dashboard"":""occupancy analytics""}",en,train
+4871,ReportingAnalyticsAgent,daily_summary_request,Provide today's reservation highlights.,"{""date"":""today""}",en,train
+4872,ReportingAnalyticsAgent,daily_summary_request,Generate today's financial overview.,"{""date"":""today""}",en,test
+4876,ReportingAnalyticsAgent,weekly_summary_request,Generate the weekly financial overview.,"{""period"":""weekly""}",en,train
+4877,ReportingAnalyticsAgent,weekly_summary_request,Provide the reservation summary for this week.,"{""period"":""this week""}",en,validation
+4881,ReportingAnalyticsAgent,monthly_summary_request,Generate this month's financial overview.,"{""period"":""this month""}",en,test
+4882,ReportingAnalyticsAgent,monthly_summary_request,Provide the monthly reservation analysis.,"{""period"":""monthly""}",en,train
+4886,ReportingAnalyticsAgent,kpi_request,Show the hotel's net revenue.,"{""kpi"":""net_revenue""}",en,train
+4887,ReportingAnalyticsAgent,kpi_request,Display today's total check-ins.,"{""kpi"":""total_check_ins""}",en,train
+4891,ReportingAnalyticsAgent,analytics_query,Analyze booking trends by reservation source.,"{""metric"":""booking_trends"",""dimension"":""reservation_source""}",en,train
+4892,ReportingAnalyticsAgent,analytics_query,Compare revenue across hotel branches.,"{""metric"":""revenue"",""dimension"":""hotel_branch""}",en,train
+4896,ReportingAnalyticsAgent,performance_summary_request,Provide an executive summary for this week's performance.,"{""period"":""this week""}",en,train
+4897,ReportingAnalyticsAgent,performance_summary_request,Generate an overall hotel performance report for this month.,"{""period"":""this month""}",en,train
+4901,ReportingAnalyticsAgent,occupancy_report_request,Generate the occupancy report for the second quarter.,"{""period"":""Q2""}",en,train
+4903,ReportingAnalyticsAgent,occupancy_report_request,Provide occupancy statistics for Family Rooms.,"{""room_type"":""Family""}",en,train
+4906,ReportingAnalyticsAgent,revenue_report_request,Generate the revenue report by department.,"{""dimension"":""department""}",en,train
+4908,ReportingAnalyticsAgent,revenue_report_request,Provide spa revenue for this quarter.,"{""department"":""spa"",""period"":""this quarter""}",en,train
+4911,ReportingAnalyticsAgent,booking_report_request,Generate the booking report for leisure travelers.,"{""segment"":""leisure""}",en,validation
+4913,ReportingAnalyticsAgent,booking_report_request,Provide booking statistics by payment method.,"{""dimension"":""payment_method""}",en,train
+4916,ReportingAnalyticsAgent,dashboard_request,Open the executive business dashboard.,"{""dashboard"":""executive business""}",en,train
+4918,ReportingAnalyticsAgent,dashboard_request,Show the hotel revenue dashboard.,"{""dashboard"":""hotel revenue""}",en,train
+4921,ReportingAnalyticsAgent,daily_summary_request,Generate today's hotel business summary.,"{""date"":""today""}",en,train
+4923,ReportingAnalyticsAgent,daily_summary_request,Show today's reservation activity.,"{""date"":""today""}",en,train
+4926,ReportingAnalyticsAgent,weekly_summary_request,Generate the weekly business overview.,"{""period"":""weekly""}",en,test
+4928,ReportingAnalyticsAgent,weekly_summary_request,Show this week's reservation trends.,"{""period"":""this week""}",en,train
+4931,ReportingAnalyticsAgent,monthly_summary_request,Generate the monthly hotel overview.,"{""period"":""monthly""}",en,train
+4933,ReportingAnalyticsAgent,monthly_summary_request,Show monthly reservation performance.,"{""period"":""monthly""}",en,train
+4936,ReportingAnalyticsAgent,kpi_request,Show today's total revenue.,"{""kpi"":""total_revenue""}",en,test
+4938,ReportingAnalyticsAgent,kpi_request,What is the hotel's RevPAR this month?,"{""kpi"":""RevPAR"",""period"":""this month""}",en,validation
+4941,ReportingAnalyticsAgent,analytics_query,Analyze revenue by department.,"{""metric"":""revenue"",""dimension"":""department""}",en,train
+4943,ReportingAnalyticsAgent,analytics_query,Identify the best-performing hotel branch.,"{""metric"":""branch_performance""}",en,test
+4946,ReportingAnalyticsAgent,performance_summary_request,Provide the hotel's overall performance for this month.,"{""period"":""this month""}",en,train
+4948,ReportingAnalyticsAgent,performance_summary_request,Summarize performance across all business units.,"{""scope"":""business_units""}",en,train
+4955,ReportingAnalyticsAgent,occupancy_report_request,Export occupancy data for weekends.,"{""period"":""weekends""}",en,train
+4960,ReportingAnalyticsAgent,revenue_report_request,Export revenue by booking platform.,"{""dimension"":""booking_platform""}",en,train
+4965,ReportingAnalyticsAgent,booking_report_request,Export booking data for weekends.,"{""period"":""weekends""}",en,train
+4970,ReportingAnalyticsAgent,dashboard_request,Display the executive KPI overview dashboard.,"{""dashboard"":""executive KPI overview""}",en,train
+4975,ReportingAnalyticsAgent,daily_summary_request,Prepare today's management briefing.,"{""date"":""today""}",en,train
+4980,ReportingAnalyticsAgent,weekly_summary_request,Prepare the weekly executive briefing.,"{""period"":""weekly""}",en,train
+4985,ReportingAnalyticsAgent,monthly_summary_request,Prepare the monthly management briefing.,"{""period"":""monthly""}",en,train
+4990,ReportingAnalyticsAgent,kpi_request,Display the guest retention rate.,"{""kpi"":""guest_retention_rate""}",en,train
+4995,ReportingAnalyticsAgent,analytics_query,Explain the decrease in weekend bookings.,"{""metric"":""weekend_bookings""}",en,train
+5000,ReportingAnalyticsAgent,performance_summary_request,Prepare a strategic business performance report for leadership.,"{""audience"":""leadership""}",en,train
+5051,ReportingAnalyticsAgent,occupancy_report_request,Generate the occupancy report for the past 30 days.,"{""period"":""past 30 days""}",en,test
+5054,ReportingAnalyticsAgent,occupancy_report_request,Display occupancy by season.,"{""dimension"":""season""}",en,train
+5056,ReportingAnalyticsAgent,revenue_report_request,Generate the revenue report for the past 30 days.,"{""period"":""past 30 days""}",en,train
+5059,ReportingAnalyticsAgent,revenue_report_request,Display revenue from online bookings.,"{""channel"":""online""}",en,validation
+5061,ReportingAnalyticsAgent,booking_report_request,Generate the booking report for online reservations.,"{""channel"":""online""}",en,train
+5064,ReportingAnalyticsAgent,booking_report_request,Display reservations by season.,"{""dimension"":""season""}",en,train
+5066,ReportingAnalyticsAgent,dashboard_request,Open the strategic analytics dashboard.,"{""dashboard"":""strategic analytics""}",en,train
+5069,ReportingAnalyticsAgent,dashboard_request,Open the revenue monitoring dashboard.,"{""dashboard"":""revenue monitoring""}",en,train
+5071,ReportingAnalyticsAgent,daily_summary_request,Generate today's business overview.,"{""date"":""today""}",en,train
+5074,ReportingAnalyticsAgent,daily_summary_request,Summarize today's hotel KPIs.,"{""date"":""today""}",en,validation
+5076,ReportingAnalyticsAgent,weekly_summary_request,Generate this week's business overview.,"{""period"":""this week""}",en,train
+5079,ReportingAnalyticsAgent,weekly_summary_request,Summarize this week's hotel KPIs.,"{""period"":""this week""}",en,train
+5081,ReportingAnalyticsAgent,monthly_summary_request,Generate this month's business overview.,"{""period"":""this month""}",en,train
+5084,ReportingAnalyticsAgent,monthly_summary_request,Summarize this month's hotel KPIs.,"{""period"":""this month""}",en,train
+5086,ReportingAnalyticsAgent,kpi_request,Show today's average room rate.,"{""kpi"":""average_room_rate"",""date"":""today""}",en,train
+5089,ReportingAnalyticsAgent,kpi_request,Show the average guest satisfaction score.,"{""kpi"":""guest_satisfaction_score""}",en,train
+5091,ReportingAnalyticsAgent,analytics_query,Analyze revenue by customer type.,"{""metric"":""revenue"",""dimension"":""customer_type""}",en,train
+5094,ReportingAnalyticsAgent,analytics_query,Analyze monthly reservation patterns.,"{""metric"":""reservation_patterns"",""period"":""monthly""}",en,validation
+5096,ReportingAnalyticsAgent,performance_summary_request,Provide the annual hotel performance summary.,"{""period"":""annual""}",en,train
+5099,ReportingAnalyticsAgent,performance_summary_request,Show an overall performance dashboard summary.,{},en,test
+5100,HousekeepingAgent,special_request,Is it possible to get the room decorated for an anniversary?,"{""request_type"": ""special_arrangement""}",en,train
+5101,HousekeepingAgent,special_request,Can you help set up a birthday surprise in my room?,"{""request_type"": ""special_arrangement""}",en,train
+5102,FnBAgent,dietary_restriction_request,"I have a peanut allergy, what options are safe for me on the menu?","{""restriction"": ""peanut allergy""}",en,train
+5103,FnBAgent,special_occasion_request,"We're celebrating a retirement celebration, can you arrange something special for the table?","{""occasion"": ""retirement celebration""}",en,train
+5104,FnBAgent,order_status_check,My food ordered about an hour ago hasn't reached the room yet.,"{""time_since_order"": ""about an hour ago""}",en,train
+5105,FnBAgent,order_status_check,My food ordered twenty minutes ago hasn't reached the room yet.,"{""time_since_order"": ""twenty minutes ago""}",en,train
+5106,FnBAgent,order_status_check,"I placed an order just now, could you confirm when it will arrive?","{""time_since_order"": ""just now""}",en,train
+5107,FnBAgent,order_status_check,Could you give me an update on my room service order?,{},en,train
+5108,HousekeepingAgent,laundry_request,Could you pick up 1 jeans for laundry service?,"{""item"": ""jeans"", ""qty"": 1, ""service"": ""laundry""}",en,train
+5109,FnBAgent,menu_inquiry,Could you share today's breakfast buffet menu?,"{""meal"": ""breakfast""}",en,validation
+5110,HousekeepingAgent,special_request,Can you help make the room safe for a toddler?,"{""request_type"": ""special_arrangement""}",en,test
+5111,HousekeepingAgent,room_change_request,Is it possible to upgrade to a suite for the remaining nights?,"{""reason"": ""upgrade""}",en,train
+5112,FnBAgent,bill_split_request,Could you split our dinner bill into 2 equal parts?,"{""guests"": 2}",en,train
+5113,FnBAgent,menu_inquiry,Do you have any gluten-free dishes available?,"{""preference"": ""gluten_free""}",en,train
+5114,HousekeepingAgent,lost_and_found_request,"I think I left my headphones in the room, could you check?","{""item"": ""headphones""}",en,test
+5115,FnBAgent,order_status_check,"I placed an order before check-in, could you confirm when it will arrive?","{""time_since_order"": ""before check-in""}",en,validation
+5116,FnBAgent,order_status_check,My food ordered before check-in hasn't reached the room yet.,"{""time_since_order"": ""before check-in""}",en,train
+5117,ConciergeAgent,booking_inquiry,"I'm exploring options for a stay next month, what's available?",{},en,validation
+5118,FnBAgent,table_reservation_request,Could you book a table for 4 for lunch tomorrow?,"{""guests"": 4, ""meal"": ""lunch""}",en,train
+5119,FnBAgent,table_reservation_request,Could you book a table for 3 for dinner tomorrow?,"{""guests"": 3, ""meal"": ""dinner""}",en,train
+5120,HousekeepingAgent,room_change_request,Could I move to a room with a better city view?,"{""reason"": ""view preference""}",en,train
+5121,HousekeepingAgent,room_change_request,"Can I move to a connecting room, we're travelling as a family?","{""reason"": ""family_request""}",en,train
+5122,HousekeepingAgent,room_change_request,Can you shift me to an accessible room on the ground floor?,"{""reason"": ""accessibility""}",en,train
+5123,HousekeepingAgent,room_change_request,I'd like to relocate to a room away from the elevator.,"{""reason"": ""noise""}",en,train
+5127,FnBAgent,order_status_check,My food ordered just now hasn't reached the room yet.,"{""time_since_order"": ""just now""}",en,train
+5128,FnBAgent,order_status_check,"I placed an order twenty minutes ago, could you confirm when it will arrive?","{""time_since_order"": ""twenty minutes ago""}",en,train
+5129,FnBAgent,order_cancellation,Please cancel the coffee order I placed a few minutes ago.,"{""item"": ""coffee order""}",en,validation
+5130,HousekeepingAgent,pest_control_request,"I noticed mosquitoes in the evening, could you send someone to check?","{""pest"": ""mosquitoes in the evening""}",en,train
+5131,HousekeepingAgent,housekeeping_schedule_request,Can you push my room cleaning to after 4 PM?,"{""time_preference"": ""after 4 PM""}",en,train
+5132,HousekeepingAgent,laundry_request,I need jeans washed and pressed by evening.,"{""item"": ""jeans"", ""service"": ""wash_and_press""}",en,train
+5133,HousekeepingAgent,laundry_request,Could you pick up 2 kurtas for laundry service?,"{""item"": ""kurtas"", ""qty"": 2, ""service"": ""laundry""}",en,train
+5134,FnBAgent,menu_inquiry,Is there a kids' menu available for room service?,{},en,test
+5135,FnBAgent,menu_inquiry,What desserts are available for room service?,{},en,test
+5137,HousekeepingAgent,room_change_request,"Could I get a room further from the lobby, it's quite loud here?","{""reason"": ""noise""}",en,train
+5138,HousekeepingAgent,room_change_request,Is it possible to switch to a room with a bathtub?,"{""reason"": ""amenity_preference""}",en,test
+5139,FnBAgent,menu_inquiry,Do you have any low-calorie options on the menu?,"{""preference"": ""low_calorie""}",en,test
+5140,HousekeepingAgent,room_change_request,Is a corner room available instead of this one?,"{""reason"": ""layout_preference""}",en,train
